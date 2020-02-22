@@ -1,0 +1,28 @@
+{
+  "partners": {
+    "ordinaryPartners": [
+      {
+        "logo": "kas.png",
+        "website": "https://www.kas.de/de/web/belarus"
+      },
+      {
+        "logo": "oaev.png",
+        "website": "https://www.oaoev.de/"
+      },
+      {
+        "logo": "htp.gif",
+        "website": "http://www.park.by/?lng=en"
+      },
+      {
+        "logo": "dbwc.png",
+        "website": "https://www.rudbwc-minsk.org/"
+      }
+    ],
+    "mediaPartners": [
+      {
+        "logo": "nitg.png",
+        "website": "https://northitgroup.com"
+      }
+    ]
+  }
+}

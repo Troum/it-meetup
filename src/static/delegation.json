@@ -1,0 +1,75 @@
+{
+  "delegations": [
+    {
+      "name": "Manfred Huterer",
+      "branch": "Ambassador",
+      "description": "German Embassy Belarus",
+      "logo": "",
+      "website": "https://minsk.diplo.de/"
+    },
+    {
+      "name": "Jakob Wöllenstein",
+      "branch": "Head",
+      "description": "Konrad Adenauer Stiftung Belarus",
+      "logo": "",
+      "website": "https://www.kas.de/de/web/belarus"
+    },
+    {
+      "name": "Marina Petrov TBC",
+      "branch": "Head",
+      "description": "EBRD Belarus",
+      "logo": "",
+      "icon": "user",
+      "website": "https://www.ebrd.com/belarus.html"
+    },
+    {
+      "name": "Mark Hauptmann",
+      "branch": "MP CDU",
+      "description": "German Bundestag",
+      "logo": "",
+      "website": "https://www.bundestag.de/en/"
+    },
+    {
+      "name": "Alexander Kulitz",
+      "branch": "MP CDU",
+      "description": "German Bundestag",
+      "logo": "",
+      "website": "https://www.bundestag.de/en/"
+    },
+    {
+      "name": "Martin Schebesta",
+      "branch": "Expert Digitalization",
+      "description": "Konrad Adenauer Stiftung ",
+      "logo": "",
+      "website": "https://www.kas.de/de/web/belarus"
+    },
+    {
+      "name": "Paul Wolter TBC",
+      "branch": "Expert Digitalization",
+      "description": "Deutscher Start-up Verband",
+      "logo": "",
+      "website": ""
+    },
+    {
+      "name": "Kirill Zalessky",
+      "branch": "Director Global HTP",
+      "description": "HTP Belarus",
+      "logo": "",
+      "website": "http://www.park.by/?lng=en"
+    },
+    {
+      "name": "Stefan Kaegebein",
+      "branch": "Director for East Europe",
+      "description": "OAOEV",
+      "logo": "",
+      "website": "https://www.oaoev.de/"
+    },
+    {
+      "name": "Stephan Hoffmann",
+      "branch": "CEO",
+      "description": "North IT Group",
+      "logo": "",
+      "website": "https://northitgroup.com"
+    }
+  ]
+}

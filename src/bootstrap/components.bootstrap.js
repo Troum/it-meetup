@@ -1,0 +1,25 @@
+import Vue from 'vue';
+import NavigationComponent from "../components/NavigationComponent";
+import PhoneMaskInput from  "vue-phone-mask-input";
+import FooterComponent from "../components/FooterComponent";
+import ParticipantFormComponent from "../components/ParticipantFormComponent";
+import InvestorsFormComponent from "../components/InvestorsFormComponent";
+import CountdownComponent from "../components/CountdownComponent";
+import Desktop from "../components/Desktop";
+import Mobile from "../components/Mobile";
+import StartupInfoModal from "../components/StartupInfoModal";
+import DelegationInfoModal from "../components/DelegationInfoModal";
+import {ValidationObserver, ValidationProvider} from "vee-validate";
+
+Vue.component('navigation-component', NavigationComponent);
+Vue.component('countdown-component', CountdownComponent);
+Vue.component('participant-form-component', ParticipantFormComponent);
+Vue.component('investors-form-component', InvestorsFormComponent);
+Vue.component('mobile-phone-component', PhoneMaskInput);
+Vue.component('footer-component', FooterComponent);
+Vue.component('desktop-view', Desktop);
+Vue.component('mobile-view', Mobile);
+Vue.component('startup-modal', StartupInfoModal);
+Vue.component('delegation-modal', DelegationInfoModal);
+Vue.component('validation-observer', ValidationObserver);
+Vue.component('validation-provider', ValidationProvider);

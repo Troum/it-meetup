@@ -1,0 +1,34 @@
+@import "~@/assets/fonts/Open-Sans/opensans.css";
+@import "~@/assets/fonts/Montserrat/montserrat.css";
+
+.semi-bold {
+  font-weight: 600;
+};
+
+.bold {
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 800;
+}
+
+.black-bold {
+  font-weight: 900;
+}
+
+.dark {
+  color: #000;
+  & * {
+    color: inherit!important;
+  }
+};
+
+.white {
+  color: #fff;
+  & * {
+    color: inherit!important;
+  }
+}
+
+

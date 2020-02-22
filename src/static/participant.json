@@ -1,0 +1,279 @@
+{
+  "participant": [
+    {
+      "name": "LWO",
+      "solution": "Banking solutions",
+      "image": "lwo.png",
+      "description": "Banking solutions, QR-based payment system",
+      "filters": "finance",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://lwo.by"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "Healthy Networks",
+      "solution": "Project Lung Passport",
+      "image": "lungpassport.jpg",
+      "description": "Project Lung Passport, digital stethoscope ",
+      "filters": "health",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://lungpass.com"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "R-Nox",
+      "solution": "Hardware and Software",
+      "image": "rnox.png",
+      "description": "Hardware and Software platform solution for city monitoring of air quality",
+      "filters": "health",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://r-nox.com"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "Total Games",
+      "solution": "Game solution",
+      "image": "totalgames.jpg",
+      "description": "Project Goodville, game for depression diagnosis and treatment",
+      "filters": "health",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://totalgames.io"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "Solar LS",
+      "solution": "Laser technologies solution",
+      "image": "solar.png",
+      "description": "Laser technologies and equipment, new startups with laser technologies",
+      "filters": "others",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://solarlaser.com"
+        }
+      ],
+      "team": [
+
+      ]
+    },
+    {
+      "name": "Izovac",
+      "solution": "AR technologies solution",
+      "image": "izovak.png",
+      "description": "Technologies of optical coatings, startups of AR glasses and solid state film batteries",
+      "filters": "others",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://izovac.com"
+        }
+      ],
+      "team": [
+
+      ]
+    },
+    {
+      "name": "Promwad",
+      "solution": "Design solution",
+      "image": "promwad.png",
+      "description": "Electronics design",
+      "filters": "others",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://promwad.com"
+        }
+      ],
+      "team": [
+      ]
+    },
+    {
+      "name": "VR Development",
+      "solution": "VR solution",
+      "image": "vrd.png",
+      "description": "Projects in VR for hotels and education",
+      "filters": "others",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://viavr.global"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "LifeHelp",
+      "solution": "Psychotherapy solution",
+      "image": "lifehelp.png",
+      "description": "Marketplace for psychotherapists",
+      "filters": "health",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://lifehelp.com"
+        }
+      ],
+      "team": []
+    }
+  ]
+}

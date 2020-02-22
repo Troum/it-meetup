@@ -1,0 +1,117 @@
+@import "variables";
+@import "~hamburgers/dist/hamburgers.css";
+button {
+  &:focus {
+    outline: none!important;
+    box-shadow: none!important;
+  }
+};
+#{$prefix}_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: toREM(171);
+  min-height: toREM(38);
+  border-radius: toREM(19);
+  background: #A1D9DA;
+  border: none;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  };
+  & .nav-link {
+    padding: .5rem .5rem!important;
+  }
+
+  &.sm {
+    min-width: toREM(42.75);
+    min-height: toREM(9.5);
+    border-radius: toREM(4.75);
+    font-size: 70%;
+  };
+  &.md {
+    min-width: toREM(57);
+    min-height: toREM(12.7);
+    border-radius: toREM(6.85);
+    font-size: 80%;
+  };
+  &.lg {
+    min-width: toREM(85.5);
+    min-height: toREM(19);
+    border-radius: toREM(9.5);
+    font-size: 90%;
+  };
+  &.submit_button {
+    border-radius: toREM(25)!important;
+    background: #A1D9DA!important;
+    min-width: toREM(118);
+    min-height: toREM(50);
+    border: none!important;
+    &:focus, &:hover, &:active {
+      outline: none;
+      box-shadow: none;
+      color: #A1D9DA;
+    }
+  };
+  &.collapse_button {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: toREM(16);
+    letter-spacing: 0.085em;
+    border: none!important;
+    background: transparent!important;
+    color: #A1D9DA;
+    outline: none;
+    box-shadow: none;
+    &:focus, &:hover, &:active {
+      outline: none;
+      box-shadow: none;
+      color: #A1D9DA;
+    }
+  };
+  &.btn-primary:not(:disabled):not(.disabled):active:focus {
+    &:not(:disabled):not(.disabled) {
+      outline: none;
+      box-shadow: none;
+      color: #A1D9DA;
+    };
+  }
+}
+
+.collapsed > .when-opened, :not(.collapsed) > .when-closed {
+  display: none!important;
+}
+
+.filter {
+  display: inline-block;
+  min-width: toREM(120);
+  min-height: toREM(44);
+  background: transparent;
+  color: #A1D9DA;
+  border: 1px solid #A1D9DA;
+  border-radius: toREM(22);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: toREM(15);
+  line-height: toREM(41);
+  margin-right: toREM(20);
+  padding-left: toREM(5);
+  padding-right: toREM(5);
+  transition: .3s ease-in-out;
+  &:first-of-type {
+    margin-left: toREM(15);
+  }
+  &:focus {
+    border: 4px solid #A1D9DA;
+    font-weight: 800;
+    outline: none;
+  };
+  @media screen and (max-width: 576px) {
+    min-width: toREM(50);
+    min-height: toREM(20);
+    border-radius: toREM(15);
+    font-size: toREM(9);
+    line-height: toREM(15);
+  }
+}

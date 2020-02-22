@@ -1,0 +1,83 @@
+$prefix: '.it-meetup';
+
+@function toREM($pixels) {
+  $result: 0.06;
+  $result: $result * $pixels;
+  @return $result * 1rem;
+}
+
+@function toVH($pixels) {
+  $result: 10.01;
+  $result: $pixels / $result;
+  @return $result * 1vh;
+}
+
+@function toPercents($pixels, $resolution) {
+  $result: (100 * $pixels) / $resolution;
+  @return $result * 1%;
+}
+
+@for $i from 1 to 101 {
+
+  @media screen and (max-width: 576px) {
+    .w-#{$i} {
+      max-width: calc(#{$i} * 1%)!important;
+    }
+
+    .h-#{$i} {
+      height: calc(#{$i} * 1%)!important;
+    }
+
+    .min-vh-#{$i} {
+      min-height: calc(#{$i} * 1vh)!important;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .w-md-#{$i} {
+      max-width: calc(#{$i} * 1%)!important;
+    }
+    .h-md-#{$i} {
+      height: calc(#{$i} * 1%)!important;
+    }
+
+    .min-md-vh-#{$i} {
+      min-height: calc(#{$i} * 1vh)!important;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .w-lg-#{$i} {
+      max-width: calc(#{$i} * 1%)!important;
+    }
+    .h-lg-#{$i} {
+      height: calc(#{$i} * 1%)!important;
+    }
+
+    .min-lg-vh-#{$i} {
+      min-height: calc(#{$i} * 1vh)!important;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .w-xl-#{$i} {
+      max-width: calc(#{$i} * 1%)!important;
+    }
+    .h-xl-#{$i} {
+      height: calc(#{$i} * 1%)!important;
+    }
+
+    .min-xl-vh-#{$i} {
+      min-height: calc(#{$i} * 1vh)!important;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    .w-xxl-#{$i} {
+      max-width: calc(#{$i} * 1%)!important;
+    }
+    .h-xxl-#{$i} {
+      height: calc(#{$i} * 1%)!important;
+    }
+    .min-xxl-vh-#{$i} {
+      min-height: calc(#{$i} * 1vh)!important;
+    }
+  }
+
+}
