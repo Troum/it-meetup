@@ -26,7 +26,7 @@
                     font-awesome-icon.it-meetup_location_icon( :icon="['fas', 'map-marker-alt']" )
                     span.it-meetup_location_address &nbsp;APRIL 17, HOTEL MARRIOTT, MINSK
 
-        b-row#about.m-0.p-0.min-vh-100.position-relative.it-meetup_about_container
+        b-row#about.m-0.p-0.pt-5.min-vh-100.position-relative.it-meetup_about_container
             b-col.m-0.pl-0.pt-5.pr-5.pb-5( cols="12" xl="6"
                     data-aos="fade-right"
                     data-aos-offset="50"
@@ -40,9 +40,9 @@
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1200"
             )
-                h3.it-meetup_about_title.p-3 About the event
-                p.it-meetup_about_description.p-3
-                    | The conference is organized by the OAOEV and DBWC in cooperation with local Belarusian companies and organizations At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
+                h3.it-meetup_about_title.p-1  The conference
+                p.it-meetup_about_description.p-1
+                    | The conference is organized by the OAOEV and DBWC in cooperation with local Belarusian companies and organizations. At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
                     br
                     | The conference is carried out by means of relaxed lectures, pitches and break-time discussions. Our aim will be achieved if active economic relations between the participants are established.
                 b-row.m-0.p-0

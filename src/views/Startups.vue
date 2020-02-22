@@ -20,7 +20,7 @@
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1500"
                 ) We proudly announce more than 20 participating Start-ups from Belarus. This year we are focusing on AI, Finance and Health Solutions. Also, some very innovative Start-ups are invited to show their unique solutions.
-                    span &nbsp;Belarus where inventiveness meets technical skill.
+                    span &nbsp;Belarus where inventiveness meets technical skills.
             b-col.mx-auto.p-xl-0.mb-4.mb-xl-5.p-xl-4( cols="10" xl="8" )
                 button.filter( @click="filterBranch" type="button" data-filter="others"
                     data-aos="fade-left"
@@ -49,7 +49,7 @@
         b-row.m-0.p-0
             b-col.mx-auto.it-meetup_participants_container.d-flex.justify-content-center.align-items-center.flex-column.flex-wrap( cols="10" xl="8" )
                 b-row.m-0.p-0.w-100
-                    b-col.mx-auto.p-0.pt-2.p-lg-2.pb-2.p-xl-4(
+                    b-col.p-0.pt-2.p-lg-2.pb-2.p-xl-4(
                         lg="6" xl="4" cols="10"
                         v-for="(item, i) in cards" :key="item.name"
                         data-aos="fade-in"

@@ -4,7 +4,7 @@
       "name": "LWO",
       "solution": "Banking solutions",
       "image": "lwo.png",
-      "description": "Banking solutions, QR-based payment system",
+      "description": "LWO (Light Well Organization) was established in 2008. It specializes in the development, implementation and maintenance of software for financial organizations and large corporate clients. The company is a major developer of software for Belarusian banks, enterprises and government agencies. More than 400 fulltime employees and 200 completed projects.\n\nThe activities of the company include development of integrated automation systems for the banking sector (retail and corporate business, building prudential, management and analytical reporting, risk management), systems of remote banking services (Internet banking, mobile banking, vip-banking), mobile applications development for banks, solutions for leasing companies (automation of preparation processes, accounting, control of execution), IT solutions for business organizations (information portals, electronic documents archive), information security.",
       "filters": "finance",
       "socials": [
         {
@@ -271,6 +271,36 @@
           "prefix": "fas",
           "icon": "globe",
           "link": "http://lifehelp.com"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "...more coming soon...",
+      "solution": "AI",
+      "image": "",
+      "description": "...",
+      "filters": "AI",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://lwo.by"
         }
       ],
       "team": []

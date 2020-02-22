@@ -1,5 +1,5 @@
 <template lang="pug">
-    b-modal#startups( hide-footer centered size="lg" header-class="startup_modal" )
+    b-modal#startups( hide-footer centered size="xl" header-class="startup_modal" )
         template( v-slot:modal-header )
             div.startup_header
                 b-button.startup_close( @click="$bvModal.hide('startups')" )
@@ -9,11 +9,12 @@
 
         div.w-100.p-0( :class="item ? '' : 'my-4'" )
             b-row.w-xl-95.mx-auto
-                b-col( cols="5" )
-                    img.img-fluid.startup_image(
+                b-col.mx-auto.startup_description.pt-2( cols="11")
+                    img.img-fluid(
+                        style="float: left; padding: 1rem"
                         :src="item.image ? `./images/startups/${item.image}` : './images/startups/preview.png'"
                         :alt="item.name" )
-                b-col.startup_description( cols="7" ) {{ item.description }}
+                    | {{ item.description }}
             b-row.w-xl-100.mx-auto.my-3( v-if="item.hasOwnProperty('team') && item.team.length > 0" )
                 b-col.mx-auto.text-center( cols="12" )
                     span.startup_team_title Our team
@@ -25,18 +26,18 @@
                         b-col.mx-auto( cols="4" v-for="teammate in item.team" :key="teammate.name" )
                             b-row.m-0.p-0
                                 b-col.text-center( cols="12" )
-                                    img.rounded-circle.img-fluid( style="height: 118px; width: 118px" :src="teammate.image" )
+                                    img.rounded-circle.img-fluid( style="height: 118px; width: 118px"
+                                        :src="`./public/images/startups/${teammate.image}`" )
                                 b-col.text-center( cols="12" )
                                     p.white.font-weight-bold.mb-0.mt-2 {{ teammate.name }}
                                     small.white {{ teammate.position }}
             b-row.w-xl-100.mx-auto.my-3( v-if="item.hasOwnProperty('socials') && item.socials.length > 0" )
                 b-col.mx-auto.text-center( cols="12" )
-                    span.startup_team_title Contact us
-                b-col.mx-auto.my-3.text-center.d-flex.justify-content-around.align-items-center( cols="2" )
-                    font-awesome-icon.d-inline.mx-auto.social-icon( v-for="icon in item.socials"
-                        v-if="icon.link"
-                        @click="goToLink(icon.link)"
-                        :icon="[icon.prefix, icon.icon]" :key="icon.link" style="font-size: 1.2rem")
+                    span.startup_team_title Website&nbsp;
+                        font-awesome-icon.d-inline.mx-auto.social-icon( v-for="icon in item.socials"
+                            v-if="icon.link"
+                            @click="goToLink(icon.link)"
+                            :icon="[icon.prefix, icon.icon]" :key="icon.link" )
 </template>
 
 <script>

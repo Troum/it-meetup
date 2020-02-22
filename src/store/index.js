@@ -27,11 +27,6 @@ export default new Vuex.Store({
         title: 'Sponsors',
         anchor: '#partners',
         isDropdown: false
-      },
-      {
-        title: 'Participants',
-        anchor: '',
-        isDropdown: true
       }
     ],
     program: [

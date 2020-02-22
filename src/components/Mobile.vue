@@ -18,7 +18,7 @@
                 img.img-fluid( src="@/assets/meeting.jpg" alt="IT MEET UP")
             b-col.m-0( cols="12" )
                 p.it-meetup_about_description.p-3
-                    | The conference is organized by the OAOEV and DBWC in cooperation with local Belarusian companies and organizations At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
+                    | The conference is organized by the OAOEV and DBWC in cooperation with local Belarusian companies and organizations. At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
                     br
                     | The conference is carried out by means of relaxed lectures, pitches and break-time discussions. Our aim will be achieved if active economic relations between the participants are established.
                 b-row.m-0.my-3.p-0

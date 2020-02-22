@@ -229,15 +229,14 @@ body * {
 }
 
 #{$prefix}_about_container {
-  display: flex;
-  align-items: center;
+
 }
 
 #{$prefix}_about_title_container {
   position: relative;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
   & #{$prefix}_about_title {
     font-family: Montserrat, sans-serif;
     font-style: normal;
@@ -248,7 +247,7 @@ body * {
     margin: 0;
     &:before {
       content: '';
-      display: inline-block;
+      display: none;
       height: toREM(6);
       width: toPercents(116, 1200);
       margin-bottom: toREM(13);
@@ -893,13 +892,14 @@ body * {
   }
 
   .startup_team_title {
-    display: block;
+    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: toREM(42);
     line-height: toREM(52);
     letter-spacing: 0.085em;
     color: #1C2B3F;
+    width: 80%;
     &:before {
       content: '';
       display: inline-block;
@@ -922,6 +922,7 @@ body * {
       width: toPercents(350, 1200);
       margin-bottom: toREM(13);
       margin-right: toREM(13);
+      margin-left: toREM(13);
       background: rgb(255,255,255);
       background: -moz-linear-gradient(270deg, rgba(255,255,255,1) 31%, rgba(28,43,63,1) 100%);
       background: -webkit-linear-gradient(270deg, rgba(255,255,255,1) 31%, rgba(28,43,63,1) 100%);
