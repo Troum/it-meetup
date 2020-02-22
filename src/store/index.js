@@ -59,15 +59,15 @@ export default new Vuex.Store({
     social: [
       {
         icon: 'linkedin-in',
-        link: ''
+        link: 'https://www.linkedin.com/company/north-it-group/?viewAsMember=true'
       },
       {
         icon: 'instagram',
-        link: ''
+        link: 'https://www.instagram.com/northitgroup/'
       },
       {
         icon: 'facebook-f',
-        link: ''
+        link: 'https://www.facebook.com/northitgroup/?eid=ARAjfkI1QSCampI1c4kgtmJGNqTr9zQzf74MTax3IDnzbN6YD8IyzU975EM-pF6MX7RmfQm3KUkBNgIz'
       }
     ]
 
