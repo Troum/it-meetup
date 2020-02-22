@@ -1,6 +1,6 @@
 <template lang="pug">
     div.mt-5.pt-4.pt-xl-0.m-xl-0
-        b-row.m-0.p-0.pt-2.pt-xl-5.min-vh-30.min-xl-vh-80.min-xxl-vh-60.it-meetup_startups_greeting
+        b-row.w-100.m-0.p-0.pt-2.pt-xl-5.it-meetup_startups_greeting
             b-col.mx-auto.my-2.d-xl-flex.justify-xl-content-center.align-xl-items-center.flex-column.flex-wrap.pt-xl-5.pl-xl-4.pr-xl-4( cols="10" xl="8" )
                 h1.it-meetup_startups_greeting_title.p-xl-4(
                     data-aos="fade-down"
@@ -47,9 +47,9 @@
                     :data-aos-duration="1100"
                 ) AI
         b-row.m-0.p-0
-            b-col.mx-auto.it-meetup_participants_container.d-flex.justify-content-center.align-items-center.flex-column.flex-wrap( cols="10" xl="8" )
-                b-row.m-0.p-0.w-100
-                    b-col.p-0.pt-2.p-lg-2.pb-2.p-xl-4(
+            b-col.mx-auto.it-meetup_participants_container( cols="10" xl="8" )
+                div.cards-wrapper
+                    div.p-0.pt-2.p-lg-2.pb-2.p-xl-4(
                         lg="6" xl="4" cols="10"
                         v-for="(item, i) in cards" :key="item.name"
                         data-aos="fade-in"
@@ -59,7 +59,7 @@
                     )
                         b-card.it-meetup_startup_card.shadow(
                             :data-filter="item.filters" )
-                            div.image-content.d-flex.justify-content-center.align-items-center
+                            div.image-content
                                 img.img-fluid(
                                     :src="item.image ? `./images/startups/${item.image}` : './images/startups/preview.png'"
                                     :alt="item.name" )

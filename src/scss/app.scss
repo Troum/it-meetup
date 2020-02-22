@@ -722,46 +722,36 @@ body * {
 
 }
 #{$prefix}_participants_container {
-  @media screen and (min-width: 1200px){
-    margin-top: -4%;
-  }
-  @media screen and (min-width: 1920px){
-    margin-top: -5%;
-  }
-
+  min-height: 100vh;
+  height: auto;
   & #{$prefix}_startup_card {
-    min-height: toREM(320);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     border: none;
     border-radius: 0;
     background: #fff;
     transition: .3s ease-in-out;
-
     &.deactivated {
       opacity: .4;
       pointer-events: none;
     };
     & .card-content {
-      position: absolute;
-      bottom: 0;
-      left:0;
-      width: 100%;
       padding-right: 1.25rem;
       padding-bottom: 1.25rem;
       padding-left: 1.25rem;
       background: #fff;
     };
     & .image-content {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       & .content-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
-        min-height: 100%;
+        height: 100%;
         width: 100%;
         top: 0;
         left: 0;
@@ -775,6 +765,9 @@ body * {
       }
     }
     & .card-body {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
       padding: 0;
     };
     & .card-img {
@@ -803,16 +796,16 @@ body * {
       padding-right: toREM(5);
     };
     @media screen and (max-width: 1199px){
-      min-height: toREM(340);
-      min-width: 100%;
+      height: toREM(300);
+      width: 100%;
     }
     @media screen and (min-width: 1200px){
-      min-height: toREM(380);
-      min-width: 100%;
+      height: toREM(320);
+      width: 100%;
     }
     @media screen and (min-width: 1920px){
-      min-height: toREM(380);
-      min-width: 100%;
+      height: toREM(340);
+      width: 100%;
     }
   }
 }
@@ -1094,5 +1087,22 @@ form {
   &.disable-form {
     pointer-events: none;
     opacity: .67;
+  }
+}
+
+.cards-wrapper {
+  width: 100%;
+  display: grid;
+  grid-auto-rows: auto auto auto;
+  grid-gap: toREM(1);
+  min-height: 100vh;
+  @media screen and (max-width: 576px){
+    grid-template-columns: 1fr;
+  }
+  @media screen and (min-width: 768px){
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (min-width: 1200px){
+    grid-template-columns: repeat(3, 1fr);
   }
 }
