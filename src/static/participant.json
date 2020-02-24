@@ -276,6 +276,36 @@
       "team": []
     },
     {
+      "name": "Rozum Robotics",
+      "solution": "Synchronous alternating-current frameless actuators featuring superior torque density",
+      "image": "rozumrobotics.png",
+      "description": "FMI motors—Rozum Robotics’ own R&D products—are synchronous alternating-current frameless actuators featuring superior torque density. The brushless technology employed in the drives enables packing impressive power into a compact footprint, while minimizing friction-induced power losses and ensuring noise- and spark-free operation. With low cogging torque, FMI-series products provide smooth rotation without jerkiness.\n\nSupplied as rotor-and-stator hollow-shaft kits, FMI engines can be encapsulated into any housing of your choice and allow versatile mounting configurations. These are direct drive solutions with no bearing, or shaft, or endbells. Integrating them into an application is almost a plug-and-run operation.\n\nA know-how stator winding enables maintaining consistent torque delivery across the available velocity span. The inrunner configuration and rare-earth magnets contribute to enhanced efficiency. Temperature-sensing elements built into the stator coils prevent overheating.\n\nThe entire delivery process—from design to the quality control stage—is under direct supervision of our specialists. Rozum Robotics offers a 1-year warranty and guarantees continuous operation of its FMI engines for 35,000 hours minimum.",
+      "filters": "others",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "https://rozum.com"
+        }
+      ],
+      "team": []
+    },
+    {
       "name": "...more coming soon...",
       "solution": "AI",
       "image": "",
@@ -300,7 +330,7 @@
         {
           "prefix": "fas",
           "icon": "globe",
-          "link": "http://lwo.by"
+          "link": "http://northitgroup.com"
         }
       ],
       "team": []
