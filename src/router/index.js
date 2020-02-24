@@ -23,7 +23,21 @@ const routes = [
     path: '/terms-and-conditions',
     name: 'terms',
     component: () => import('../views/Terms.vue')
-  }
+  },
+  {
+    path: '/program',
+    name: 'program',
+    component: () => import('../views/Program.vue')
+  },
+  {
+    path: "*",
+    redirect: "/404"
+  },
+  {
+    path: "/404",
+    name: "404",
+    component: () => import("../views/NotFoundView.vue")
+  },
 ];
 
 const router = new VueRouter({

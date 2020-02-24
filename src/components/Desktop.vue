@@ -89,6 +89,8 @@
                                     div.text-left
                                         p.m-0 {{ item.title }}
                                         p.it-meetup_schedule_description.m-0 {{ item.description }}
+                    b-col.mt-5.pt-3.text-center.position-relative( cols="12" )
+                        router-link( to="/program" style="color: #A1D9DA; font-weight: 600; letter-spacing: 0.085") Detailed program
         b-row#registration.m-0.p-0.min-vh-100.position-relative.it-meetup_registration_container
             b-col#join.m-0.p-0( cols="12" )
                 b-row.m-0.p-0
@@ -166,7 +168,7 @@
           }
         },
         mounted() {
-            this.$refs.vertical.style.height = `calc(${this.$refs.schedule.clientHeight}px + 20%)`;
+            this.$refs.vertical.style.height = `calc(${this.$refs.schedule.clientHeight}px + 14%)`;
         },
         methods: {
             goToLink(link) {
