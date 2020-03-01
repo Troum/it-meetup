@@ -306,11 +306,11 @@
       "team": []
     },
     {
-      "name": "...more coming soon...",
-      "solution": "AI",
+      "name": "Insailing",
+      "solution": "Choose and book sailing events easily",
       "image": "",
-      "description": "...",
-      "filters": "AI",
+      "description": "",
+      "filters": "others",
       "socials": [
         {
           "prefix": "fab",
@@ -330,7 +330,187 @@
         {
           "prefix": "fas",
           "icon": "globe",
-          "link": "http://northitgroup.com"
+          "link": "https://insailing.com"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "Rocketbody",
+      "solution": "ECG-BASED PERSONAL TRAINER",
+      "image": "rocketbody.jpg",
+      "description": "",
+      "filters": "health",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "https://gorocketbody.com/"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "Feeling.digital",
+      "solution": "VR-Solutions",
+      "image": "feeling.jpg",
+      "description": "",
+      "filters": "others",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://feelingdigital.pro/"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "Vibrobox",
+      "solution": "Vibration diagnostics service for proactive maintenance",
+      "image": "vibrobox.jpg",
+      "description": "...",
+      "filters": "others",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "https://www.vibrobox.com/"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "AIRCONN BEL TECHNOLOGY ",
+      "solution": "The airconn IoT platform is a platform for collecting, storing and analyzing data from various IoT devices.",
+      "image": "aircon.jpg",
+      "description": "...",
+      "filters": "ai",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "http://airconn.by/"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "G Key Lab",
+      "solution": " VR/AR in Sales and Marketing Using cutting edge technologies such VR/AR/MR, our solutions deliver greater KPIs and reduce costs",
+      "image": "gkeylab.jpg",
+      "description": "",
+      "filters": "others",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "https://the-parallel.com/"
+        }
+      ],
+      "team": []
+    },
+    {
+      "name": "Wizart",
+      "solution": "Through advanced machine learning and computer vision technologies we developed a cutting-edge solution to meet the modern-day challenges of interior design industry",
+      "image": "wizart.jpg",
+      "description": "",
+      "filters": "ai",
+      "socials": [
+        {
+          "prefix": "fab",
+          "icon": "linkedin-in",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "instagram",
+          "link": ""
+        },
+        {
+          "prefix": "fab",
+          "icon": "facebook-f",
+          "link": ""
+        },
+        {
+          "prefix": "fas",
+          "icon": "globe",
+          "link": "https://www.wizart.tech/"
         }
       ],
       "team": []

@@ -47,7 +47,7 @@ export default new Vuex.Store({
       },
       {
         time: '14:00 - 19:00',
-        title: 'Pitches of Belarussian Start-ups',
+        title: 'Pitches of Belarusian Start-ups',
         description: ''
       },
       {

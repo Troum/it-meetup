@@ -19,7 +19,7 @@ body * {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 1039;
   width: 100%;
   height: 90px;
   background: transparent;
@@ -164,6 +164,10 @@ body * {
   font-weight: 900;
   color: #A1D9DA;
   font-size: toREM(60);
+  @media screen and (max-width: 767px){
+    font-size: toREM(43);
+    margin-top: 2rem;
+  }
 }
 
 #{$prefix}_stroke_greeting {
@@ -172,6 +176,9 @@ body * {
   font-size: toREM(60);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: toREM(3) #A1D9DA;
+  @media screen and (max-width: 767px){
+    font-size: toREM(43);
+  }
 }
 
 #{$prefix}_location_container {
@@ -542,6 +549,7 @@ body * {
 #{$prefix}_partner_logo_container {
   display: flex;
   align-items: center;
+  justify-content: center;
   min-width: toREM(160);
   min-height: toREM(160);
   & img {
@@ -966,6 +974,7 @@ body * {
     right: 4%;
     display: flex;
     align-items: center;
+    justify-content: center;
     align-self: flex-start;
     width: toREM(36) !important;
     height: toREM(36) !important;
@@ -976,6 +985,11 @@ body * {
     &:focus {
       outline: none;
       box-shadow: none;
+    };
+    @media screen and (max-width: 991px){
+      & svg {
+        width: 100%;
+      }
     }
   }
 }
@@ -1005,6 +1019,9 @@ body * {
     background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(28,43,63,1) 50%);
     background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(28,43,63,1) 50%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#1c2b3f",GradientType=1);
+    @media screen and (max-width: 991px) {
+      background: rgb(255,255,255);
+    };
     & .delegation_close {
       margin-top: -3%;
       margin-right: -1.5%;
@@ -1048,7 +1065,8 @@ body * {
   }
 
   & .delegation_description {
-    height: toREM(300);
+    height: toREM(400);
+    max-height: 100%;
     overflow-y: auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -1103,5 +1121,18 @@ form {
   }
   @media screen and (min-width: 1200px){
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.startup_social_title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: toREM(42);
+  line-height: toREM(52);
+  letter-spacing: 0.085em;
+  color: #1C2B3F;
+  @media screen and (max-width: 992px) {
+    font-size: toREM(24);
+    line-height: toREM(28);
   }
 }

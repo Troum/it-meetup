@@ -6,14 +6,19 @@
             b-col.it-meetup_greeting( cols="12"  )
                 h1.it-meetup_title_greeting( style="letter-spacing: 0.085em;" ) Germany meets
                 h2
-                    span.it-meetup_filled_greeting.text-uppercase( style="letter-spacing: 0.085em;" ) the&nbsp;
-                    span.it-meetup_stroke_greeting.text-uppercase( style="letter-spacing: 0.085em;" ) Silicon Valley of Eastern Europe
+                    span.it-meetup_stroke_greeting.text-uppercase( style="letter-spacing: 0.085em;" ) the
+                    br
+                    span.it-meetup_filled_greeting.text-uppercase( style="letter-spacing: 0.085em;" ) Silicon Valley
+                    br
+                    span.it-meetup_stroke_greeting.text-uppercase of
+                    br
+                    span.it-meetup_filled_greeting.text-uppercase Eastern Europe
                 div.it-meetup_location_container
                     font-awesome-icon.it-meetup_location_icon( :icon="['fas', 'map-marker-alt']" )
                     span.it-meetup_location_address &nbsp;APRIL 17, HOTEL MARRIOTT, MINSK
         b-row#about.m-0.p-0.min-vh-100.position-relative.it-meetup_about_container
             b-col.m-0.my-3.it-meetup_about_title_container( cols="12" )
-                h3.it-meetup_about_title.text-lg-center.text-xl-left About the event
+                h3.it-meetup_about_title.text-lg-center.text-xl-left The conference
             b-col.m-0.p-0.text-lg-center.text-xl-left( cols="12" )
                 img.img-fluid( src="@/assets/meeting.jpg" alt="IT MEET UP")
             b-col.m-0( cols="12" )
@@ -35,18 +40,16 @@
                         div.vertical_border.my-5( ref="vertical" )
                         div( ref="schedule" style="z-index: 2; margin-top: 6%" )
                             b-row.d-flex.justify-content-around.align-items-center.mx-auto.my-1.w-100( v-for="(item, i) in $store.getters.program" :key="item.time" )
-                                b-col.d-flex.align-items-center.align-self-center.it-meetup_schedule_time( cols="5"
-                                    :class="i % 2 === 0 ? 'order-last justify-content-start' : 'order-first justify-content-end'" )
+                                b-col.d-flex.align-items-center.justify-content-end.it-meetup_schedule_time( cols="5" )
                                     | {{ item.time }}
                                 b-col.d-flex.justify-content-center.align-items-center( cols="2" )
                                     span.circle
-                                b-col.d-flex.align-items-center.align-self-center.it-meetup_schedule_title.flex-wrap.flex-column( cols="5"
-                                    :class="i % 2 === 0 ? 'order-first justify-content-end align-content-end' : 'order-last justify-content-start align-content-start'" )
+                                b-col.d-flex.justify-content-start.it-meetup_schedule_title.flex-wrap.flex-column( cols="5")
                                     div.text-left
                                         p.m-0 {{ item.title }}
                                         p.it-meetup_schedule_description.m-0 {{ item.description }}
-                    b-col.mt-5.pt-3.text-center.position-relative( cols="12" )
-                        router-link( to="/program" style="color: #A1D9DA; font-weight: 600; letter-spacing: 0.085") Detailed program
+                    b-col.mt-5.mb-2.pt-3.pb-2.text-center.position-relative( cols="12" )
+                        router-link.h6( to="/program" style="color: #A1D9DA; font-weight: 600; letter-spacing: 0.085") Detailed program
         b-row#registration.m-0.p-0.min-vh-100.position-relative.it-meetup_registration_container
             b-col#join.m-0.p-0( cols="12" )
                 b-row.m-0.p-0
@@ -105,7 +108,7 @@
             }
         },
         mounted() {
-            this.$refs.vertical.style.height = `calc(${this.$refs.schedule.clientHeight}px + 5%)`;
+            this.$refs.vertical.style.height = `calc(${this.$refs.schedule.clientHeight}px + 2%)`;
         },
         methods: {
             goToLink(link) {

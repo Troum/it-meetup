@@ -10,6 +10,7 @@ import Mobile from "../components/Mobile";
 import StartupInfoModal from "../components/StartupInfoModal";
 import DelegationInfoModal from "../components/DelegationInfoModal";
 import {ValidationObserver, ValidationProvider} from "vee-validate";
+import pdf from "pdfvuer";
 
 Vue.component('navigation-component', NavigationComponent);
 Vue.component('countdown-component', CountdownComponent);
@@ -23,3 +24,4 @@ Vue.component('startup-modal', StartupInfoModal);
 Vue.component('delegation-modal', DelegationInfoModal);
 Vue.component('validation-observer', ValidationObserver);
 Vue.component('validation-provider', ValidationProvider);
+Vue.component('pdf-viewer', pdf);

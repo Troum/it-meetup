@@ -7,7 +7,7 @@
                     :data-aos-offset="isMobile ? 20 : 50"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000"
-                ) Belarussian&nbsp;
+                ) Belarusian&nbsp;
                     span(
                         data-aos="fade-down"
                         :data-aos-offset="isMobile ? 20 : 50"

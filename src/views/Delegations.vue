@@ -23,7 +23,7 @@
         b-row.m-0.p-0( style="background: #E5E5E5" )
             b-col.mx-auto.d-flex.justify-content-center.align-items-center.flex-column.flex-wrap( cols="10" xl="8" )
                 b-row.m-0.p-0.w-100
-                    b-col.my-5.mx-auto( v-for="(item, i) in delegations"  :key="item.name"
+                    b-col.my-5.mx-auto.mx-xl-0( v-for="(item, i) in delegations"  :key="item.name"
                             data-aos="fade-up"
                             :data-aos-offset="isMobile ? 20 : 50"
                             data-aos-easing="ease-out-cubic"
@@ -34,7 +34,7 @@
                         )
                         b-row.p-0.m-0
                             b-col.delegation_logo_container.mx-auto( @click="openModal(item)" cols="12" )
-                                img.img-fluid( v-if="item.logo" :src="item.logo" :alt="item.name" )
+                                img.img-fluid.rounded-circle( v-if="item.logo" :src="`./images/delegations/${item.logo}`" :alt="item.name" )
                                 font-awesome-icon.mx-auto( v-else :icon="['fas', 'user']"
                                     size="3x" style="color: #A1D9DA" )
                                 button.delegation_site_link( @click="openWebsite(item.website)" )

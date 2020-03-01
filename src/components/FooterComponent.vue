@@ -27,7 +27,7 @@
                             font-awesome-icon( :icon="['fab', item.icon]" )
                 b-col.mx-auto.mt-2.pl-0.pt-3( cols="10" style="border-top: 1px solid rgba(213, 217, 239, 0.36);" )
                     small.white Made by&nbsp;
-                        a( href="https://northitgroup.com" ) North IT Group
+                        a( href="https://northitgroup.com" ) North IT Group Minsk Office
 
 
 

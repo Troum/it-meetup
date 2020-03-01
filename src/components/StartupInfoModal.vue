@@ -33,7 +33,7 @@
                                     small.white {{ teammate.position }}
             b-row.w-xl-100.mx-auto.my-3( v-if="item.hasOwnProperty('socials') && item.socials.length > 0" )
                 b-col.mx-auto.text-center( cols="12" )
-                    span.startup_team_title Website&nbsp;
+                    span.startup_social_title Website&nbsp;
                         font-awesome-icon.d-inline.mx-auto.social-icon( v-for="icon in item.socials"
                             v-if="icon.link"
                             @click="goToLink(icon.link)"

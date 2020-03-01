@@ -2,21 +2,21 @@
   "delegations": [
     {
       "name": "Manfred Huterer",
-      "branch": "Ambassador",
+      "branch": "Ambassador Federal Republic of Germany",
       "description": "German Embassy Belarus",
       "logo": "",
       "website": "https://minsk.diplo.de/"
     },
     {
       "name": "Jakob Wöllenstein",
-      "branch": "Head",
+      "branch": "Head KAS Belarus",
       "description": "Konrad Adenauer Stiftung Belarus",
       "logo": "",
       "website": "https://www.kas.de/de/web/belarus"
     },
     {
       "name": "Marina Petrov TBC",
-      "branch": "Head",
+      "branch": "Head EBRD Belarus",
       "description": "EBRD Belarus",
       "logo": "",
       "icon": "user",
@@ -25,50 +25,50 @@
     {
       "name": "Mark Hauptmann",
       "branch": "MP CDU",
-      "description": "German Bundestag",
-      "logo": "",
+      "description": "Mark Hauptmann was born on April, 29th 1984 in Weimar, Germany.\n\nIn September 2013, he was elected Member of the German Bundestag in his home constituency in the free state of Thuringia. He is a member of the Committee on Economic Affairs and Energy, as well as a substitute member of the Committee on Foreign Affairs. Since late 2014, he is also member of the city council in Suhl. Before entering the German Bundestag he worked in Brussels, Beijing, Erfurt and as head of the office of MP Christian Hirte.\n\nMark Hauptmann earned a master’s degree in political sciences, intercultural business\n\ncommunication and economic and social history studying in Jena, Osaka and New Haven, CT (USA). Joining the “Junge Union” in 1999, he became a member of the CDU in 2003. From 2012 to 2014 he was a member of the federal board of the “Junge Union Germany” and chairman of the International Commission on European, Foreign, and Security Affairs. In addition, he holds membership in the CDU’s Federal Committee on Matters of Foreign, Security, Development, and Human Rights Policy. In November 2016 Mark Hauptmann became Chairman of the district association of the CDU Suhl. In the current legislative period he also functions as Chairman of the Young Group of the CDU/CSU Parliamentary Group, Member of the CDU/CSU Group Executive Committee and Chairman of the Interparliamentary Group Germany-Belarus of the German Bundestag.",
+      "logo": "hauptmann.jpg",
       "website": "https://www.bundestag.de/abgeordnete/biografien/H/hauptmann_mark-520150"
     },
     {
       "name": "Alexander Kulitz",
       "branch": "MP FDP",
-      "description": "German Bundestag",
-      "logo": "",
+      "description": "Alexander Kulitz is elected MP at the German Bundestag, spokesperson on 'foreign economic relations and trade' for the 'Free Democratic Party' and member of the foreign affairs committee. Before his election into parliament, Kulitz served as President to the 'Wirtschaftsjunioren Deutschland e.V.', being the largest association of young executives and entrepreneurs in Germany. He is shareholder and executive board member of the family owned business, ESTA Apparatebau GmbH (www.esta.com), accredited lawyer and chair of the advisory board of the RUF Automobile GmbH (www.ruf-automobile.de).\n\nIn addition Kulitz is member of the Family Business Network, the Next generation forum, standing member on the German Chamber of Commerce (DIHK) committee \"industry and research\", the VDMA strategy group \"environment, climate and sustainability\" and some other organizations. Kulitz was heading the German Delegation of the G20 Young Entrepreneurs Alliance and delegated to the B20. In 2017 Kulitz has been awarded a senatorship of the Junior Chamber International.",
+      "logo": "kulitz.jpg",
       "website": "https://www.bundestag.de/abgeordnete/biografien/K/521412-521412/"
     },
     {
       "name": "Martin Schebesta",
-      "branch": "Expert Digitalization",
-      "description": "Konrad Adenauer Stiftung ",
+      "branch": "Expert Digitalization - KAS",
+      "description": "Konrad Adenauer Stiftung",
       "logo": "",
       "website": "https://www.kas.de/de/web/belarus"
     },
     {
       "name": "Paul Wolter TBC",
-      "branch": "Expert Digitalization",
+      "branch": "Expert Digitalization - Deutscher Start-up Verband",
       "description": "Deutscher Start-up Verband",
       "logo": "",
       "website": ""
     },
     {
       "name": "Kirill Zalessky",
-      "branch": "Director Global HTP",
+      "branch": "Director Global HTP Belarus",
       "description": "HTP Belarus",
       "logo": "",
       "website": "http://www.park.by/?lng=en"
     },
     {
       "name": "Stefan Kaegebein",
-      "branch": "Director for East Europe",
-      "description": "OAOEV",
-      "logo": "",
+      "branch": "Director for East Europe - OAOEV",
+      "description": "Stefan Kägebein is a member of the Advisory Board of the Pact for Cybersecurity established by the German Federal Ministry of the Interior, Building and Community and the Federation of German Industries and used to be a member of the Steering Committee of the “Digital Summit Western Balkan 6” - process in 2017 and 2018. \nHis focus is on Eastern Europe, Digitalisation, Recruitment, International Business Development and Foreign Policy, each with practical experience in Germany and different countries in CEE and SEE.",
+      "logo": "stefan.jpg",
       "website": "https://www.oaoev.de/"
     },
     {
       "name": "Stephan Hoffmann",
-      "branch": "CEO",
-      "description": "North IT Group",
-      "logo": "",
+      "branch": "North IT Group CEO",
+      "description": "Stephan Hoffmann is an international leadership and management professional with more than 15 years of working experience.  After graduating with an Industrial Engineering Master from the Helmut Schmidt University. He worked as a logistic manager in a German federal entity. In 2015 Stephan moved to Strasbourg and work there as engineer and procurement manager for the EU. In 2016 he joined the team of morEnergy GmbH as a business consultant in Hamburg and he is working there until today. In 2018 he took over the position as Senior Project Manager for international clients at SCHNEIDER GROUP in Minsk. Stephan is a professional in business development and business consulting. With the background in international coordination and management. Stephan is considered to be a reliable partner with intercultural competence.",
+      "logo": "stephan.jpg",
       "website": "https://northitgroup.com"
     }
   ]
