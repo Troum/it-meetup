@@ -2,9 +2,9 @@
   "participant": [
     {
       "name": "LWO",
-      "solution": "Banking solutions",
+      "solution": "Banking solutions, QR-based payment system",
       "image": "lwo.png",
-      "description": "LWO (Light Well Organization) was established in 2008. It specializes in the development, implementation and maintenance of software for financial organizations and large corporate clients. The company is a major developer of software for Belarusian banks, enterprises and government agencies. More than 400 fulltime employees and 200 completed projects.\n\nThe activities of the company include development of integrated automation systems for the banking sector (retail and corporate business, building prudential, management and analytical reporting, risk management), systems of remote banking services (Internet banking, mobile banking, vip-banking), mobile applications development for banks, solutions for leasing companies (automation of preparation processes, accounting, control of execution), IT solutions for business organizations (information portals, electronic documents archive), information security.",
+      "description": "LWO (Light Well Organization) was established in 2008. It specializes in the development, implementation and maintenance of software for financial organizations and large corporate clients. The company is a major developer of software for Belarusian banks, enterprises and government agencies. More than 400 fulltime employees and 200 completed projects. The activities of the company include development of integrated automation systems for the banking sector (retail and corporate business, building prudential, management and analytical reporting, risk management), systems of remote banking services (Internet banking, mobile banking, vip-banking), mobile applications development for banks, solutions for leasing companies (automation of preparation processes, accounting, control of execution), IT solutions for business organizations (information portals, electronic documents archive), information security.",
       "filters": "finance",
       "socials": [
         {
@@ -32,9 +32,9 @@
     },
     {
       "name": "Healthy Networks",
-      "solution": "Project Lung Passport",
+      "solution": "Project Lung Passport, digital stethoscope ",
       "image": "lungpassport.jpg",
-      "description": "Project Lung Passport, digital stethoscope ",
+      "description": "Established in 2017, Healthy Networks with a team of data scientists, business developers and medical professionals has developed a unique technology for recognizing lung sounds. The project “LungPass” is the world’s first low-cost AI-powered stethoscope for early detection and at-home self-management of respiratory conditions.\nThe project was developed in close cooperation with the Department of Pulmonology and Phthisiology of the Belarusian Medical Academy of Postgraduate Education. Healthy Networks is working on registering “LungPass” as medical devices in Belarus and the European Union.",
       "filters": "health",
       "socials": [
         {
@@ -62,7 +62,7 @@
     },
     {
       "name": "R-Nox",
-      "solution": "Hardware and Software",
+      "solution": "Hardware and Software platform solution for city monitoring of air quality",
       "image": "rnox.png",
       "description": "Hardware and Software platform solution for city monitoring of air quality",
       "filters": "health",
@@ -92,9 +92,9 @@
     },
     {
       "name": "Total Games",
-      "solution": "Game solution",
+      "solution": "Project Goodville, game for depression diagnosis and treatment",
       "image": "totalgames.jpg",
-      "description": "Project Goodville, game for depression diagnosis and treatment",
+      "description": "The company has more than 15 years of experience in game development. Total Games team has skills and experience with 3D cinematics, AI technologies mobile games marketing, big-data management and statistic/analysis systems.\n\nAbout 40 products released with the total audience of all projects s more than 210 mln people and the total revenue of all projects is more than $110 mln.\n\nThe project “Goodville” is a clinically tested app to prevent and fight depressive disorders. We combine the gaming industry expertise with the scientific approach to address mental health issues from a completely new angle.",
       "filters": "health",
       "socials": [
         {
@@ -122,9 +122,9 @@
     },
     {
       "name": "Solar LS",
-      "solution": "Laser technologies solution",
+      "solution": "Laser technologies and equipment, new startups with laser technologies ",
       "image": "solar.png",
-      "description": "Laser technologies and equipment, new startups with laser technologies",
+      "description": "SOLAR LS has been successfully working in the international photonics market for more than 25\nyears and is an expert in research, development and manufacturing of solid-state laser systems and\ninstruments for spectral analysis for scientific, medical and industrial applications. We offer reliable\ntechnologically advanced solutions that help our customers to answer the tasks they face.",
       "filters": "others",
       "socials": [
         {
@@ -154,9 +154,9 @@
     },
     {
       "name": "Izovac",
-      "solution": "AR technologies solution",
+      "solution": "Technologies of optical coatings, startups of AR glasses and solid state film batteries",
       "image": "izovak.png",
-      "description": "Technologies of optical coatings, startups of AR glasses and solid state film batteries",
+      "description": "IZOVAC is engaged in development and optimization of optical coatings, next-generation coating deposition technologies, manufacture of vacuum sputtering systems for optics, microelectronics, displays and photovoltaics.",
       "filters": "others",
       "socials": [
         {
@@ -186,9 +186,9 @@
     },
     {
       "name": "Promwad",
-      "solution": "Design solution",
+      "solution": "Electronics design",
       "image": "promwad.png",
-      "description": "Electronics design",
+      "description": "Established in 2004, the company designs new devices and software for the growing markets: telecommunications, consumer devices & IoT, automotive electronics, home and industrial automation, media and entertainment.\nPromwad Soft was founded on the basis of the Promwad electronics design center with extensive experience in implementing sophisticated high-tech developments and partnership programs with global manufacturers of electronic components. The development center is located in Minsk and employs 100 people.\nThe company offers two projects for raising capital:\nneuronavigator, optical navigation system designed for accurate and safe operations on the brain and spine, inexpensive and easy to use. The working prototype consists of a computer, software, a stereo camera and a set of devices with built-in sensors.\ntraining simulator for neurosurgeons that can help to train and certify medical staff combining technology navigation station and VR. The project is aimed at bringing the training process as close as possible to the actual conditions of the operation.",
       "filters": "others",
       "socials": [
         {
@@ -217,9 +217,9 @@
     },
     {
       "name": "VR Development",
-      "solution": "VR solution",
+      "solution": "Projects in VR for hotels and education",
       "image": "vrd.png",
-      "description": "Projects in VR for hotels and education",
+      "description": "VR Development was established in 2019 by the shareholders of the largest VR-entertainment park in Europe – Teleport.\nVIAVR is service by a Belarus-based provider of in-house proprietary fully-fledged B2B2C solution for the hospitality industry offering a new experience to the hotel guests through viewing VR content in a special VR helmet right in the hotel room.\nThe company also offers specially developed VR lessons for schools.viavr.global",
       "filters": "others",
       "socials": [
         {
@@ -247,9 +247,9 @@
     },
     {
       "name": "LifeHelp",
-      "solution": "Psychotherapy solution",
+      "solution": "Marketplace for psychotherapists",
       "image": "lifehelp.png",
-      "description": "Marketplace for psychotherapists",
+      "description": "The company offers an online solution for psychological and psychotherapeutical services, the marketplace that will allow to choose from thousands of psychotherapists according to different criteria.\nlifehelp.co",
       "filters": "health",
       "socials": [
         {
@@ -279,7 +279,7 @@
       "name": "Rozum Robotics",
       "solution": "Synchronous alternating-current frameless actuators featuring superior torque density",
       "image": "rozumrobotics.png",
-      "description": "FMI motors—Rozum Robotics’ own R&D products—are synchronous alternating-current frameless actuators featuring superior torque density. The brushless technology employed in the drives enables packing impressive power into a compact footprint, while minimizing friction-induced power losses and ensuring noise- and spark-free operation. With low cogging torque, FMI-series products provide smooth rotation without jerkiness.\n\nSupplied as rotor-and-stator hollow-shaft kits, FMI engines can be encapsulated into any housing of your choice and allow versatile mounting configurations. These are direct drive solutions with no bearing, or shaft, or endbells. Integrating them into an application is almost a plug-and-run operation.\n\nA know-how stator winding enables maintaining consistent torque delivery across the available velocity span. The inrunner configuration and rare-earth magnets contribute to enhanced efficiency. Temperature-sensing elements built into the stator coils prevent overheating.\n\nThe entire delivery process—from design to the quality control stage—is under direct supervision of our specialists. Rozum Robotics offers a 1-year warranty and guarantees continuous operation of its FMI engines for 35,000 hours minimum.",
+      "description": "Established in 2015, Rozum Robotics is an R&D and manufacturing company with representative offices in the USA, Russia, and Belarus. The company specializes in innovative robotics and high-precision motor technology. Its product range includes collaborative robotic arms for industrial and commercial use, high-torque compact servos, and frameless motors. \nRozum Robotics runs the entire manufacturing cycle - from in-house research and development to designing components and assembling them into plug-and-use solutions. \nThe only company in Belarus and CIS working in this segment.",
       "filters": "others",
       "socials": [
         {
@@ -308,8 +308,8 @@
     {
       "name": "Insailing",
       "solution": "Choose and book sailing events easily",
-      "image": "",
-      "description": "",
+      "image": "insailing.png",
+      "description": "iNsailing is a web platform that connects skippers, professional sailors, yacht owners with other sailors, athletes, and people who would like to participate in different sailing events. The platform allows you to search for places for the specific regatta easy and connect directly with the skipper. ",
       "filters": "others",
       "socials": [
         {
@@ -339,7 +339,7 @@
       "name": "Rocketbody",
       "solution": "ECG-BASED PERSONAL TRAINER",
       "image": "rocketbody.jpg",
-      "description": "",
+      "description": "The company was established in 2018. It presents an application in the field of medicine and sports to increase the performance of athletes and a platform for sports teams and coaches.\nThe activities of the company also include development of a series of smart watches for athletes and people leading an active lifestyle, ECG holters to identify cardiac pathologies and studies of physical health.",
       "filters": "health",
       "socials": [
         {
@@ -369,7 +369,7 @@
       "name": "Feeling.digital",
       "solution": "VR-Solutions",
       "image": "feeling.jpg",
-      "description": "",
+      "description": "Feeling Digital is a media studio that has been working with technology for film and art business for over 5 years. The company focuses on working with visual images, studies the following aspects: human interaction with the digital environment through a spatial computing interface, effectiveness of immersive advertising, perception of information through applications with experimental design, recreation of real physics in a project/application; expertise in working with the latest VR / AR / Digital devices.\nThe company's VR video entered the World TOP-10 of the best 360 videos. Feeling Digital is also the only company in Belarus to create an LBVR multiplayer for “from idea to implementation”.",
       "filters": "others",
       "socials": [
         {
@@ -399,7 +399,7 @@
       "name": "Vibrobox",
       "solution": "Vibration diagnostics service for proactive maintenance",
       "image": "vibrobox.jpg",
-      "description": "...",
+      "description": "The company presents comprehensive solution for maintenance repair and operations market. Headquarters and R&D in Minsk, 20 people in team, core competences – digital signal processing, neural networks, ML/DL, and AI.\nThe project concentrates on automatic vibration-based diagnostics and prescriptive maintenance of rotary industrial equipment. VibroBox system has three main elements – industrial equipment, analytical platform and user interface.",
       "filters": "others",
       "socials": [
         {
@@ -429,7 +429,7 @@
       "name": "AIRCONN BEL TECHNOLOGY ",
       "solution": "The airconn IoT platform is a platform for collecting, storing and analyzing data from various IoT devices.",
       "image": "aircon.jpg",
-      "description": "...",
+      "description": "The company specializes in development of IoT software. The company concentrates on projects that use machine learning methods, artificial intelligence, big data and blockchain technology.\nThe main project is a platform for collecting and analyzing data for IoT solutions. The activity is focused on automation of resource consumption accounting: electricity, water, heat, gas.",
       "filters": "ai",
       "socials": [
         {
@@ -459,7 +459,7 @@
       "name": "G Key Lab",
       "solution": " VR/AR in Sales and Marketing Using cutting edge technologies such VR/AR/MR, our solutions deliver greater KPIs and reduce costs",
       "image": "gkeylab.jpg",
-      "description": "",
+      "description": "The Parallel was created to develop solutions in B2B segment using VR technology. The head office is in London, R&D – in Minsk. The key competence – VR/AR/MR, e-learning, brain-computer interface, CRM integration, data analysis.\nThe company presents the project Cleverpoint, a neurodevice for capturing bio-data of users during VR-sessions.",
       "filters": "others",
       "socials": [
         {
@@ -489,7 +489,7 @@
       "name": "Wizart",
       "solution": "Through advanced machine learning and computer vision technologies we developed a cutting-edge solution to meet the modern-day challenges of interior design industry",
       "image": "wizart.jpg",
-      "description": "",
+      "description": "Established in 2018. The company creates software for visualization of interiors using computer vision and augmented reality. The innovation of the project lies in the possibility of \"\"virtual fitting\"\" of various types of wall coverings (wallpaper, paint) in photographs of interiors. The application identifies and recognizes objects, the system deals with pre-loaded photos, and those obtained while working with the application in real time.",
       "filters": "ai",
       "socials": [
         {

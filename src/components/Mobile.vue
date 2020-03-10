@@ -23,14 +23,16 @@
                 img.img-fluid( src="@/assets/meeting.jpg" alt="IT MEET UP")
             b-col.m-0( cols="12" )
                 p.it-meetup_about_description.p-3
-                    | The conference is organized by the OAOEV and DBWC in cooperation with local Belarusian companies and organizations. At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
+                    | The conference is organized by the OAOEV, Representative Office of German Economy in Belarus and DBWC in cooperation with local Belarusian companies and organizations. At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
                     br
                     | The conference is carried out by means of relaxed lectures, pitches and break-time discussions. Our aim will be achieved if active economic relations between the participants are established.
                 b-row.m-0.my-3.p-0
-                    b-col.d-flex.justify-content-center.align-items.center( cols="6" )
+                    b-col( cols="4" )
                         img.img-fluid( src="@/assets/dbwc.png" alt="DBWC Logo" )
-                    b-col.d-flex.justify-content-center.align-items.center( cols="6" )
+                    b-col( cols="4" )
                         img.img-fluid( src="@/assets/oaev.png" alt="OAEV Logo" )
+                    b-col( cols="4" )
+                        img.img-fluid( src="@/assets/ahk.jpg" alt="OAEV Logo" )
         b-row#program.m-0.position-relative.it-meetup_program_container
             b-col.m-0.p-0.it-meetup_program_blur_wrapper( cols="12" )
             b-col.m-0( cols="12" )
@@ -77,6 +79,12 @@
                             b-col.d-flex.justify-content-center.align-items-center( cols="12" xl="5" )
                                 b-row.m-0.p-0
                                     b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center( cols="12" )
+                                        strong.h1( style="font-weight: 600" ) General Sponsor
+                                    b-col.mx-auto.p-2( cols="6")
+                                        div.it-meetup_partner_logo_container
+                                            img.img-fluid( src="@/assets/placeholder.png"
+                                                alt="Placeholder" )
+                                    b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center( cols="12" )
                                         strong.h1( style="font-weight: 600" ) Sponsors
                                     b-col.mx-auto.p-2( cols="6" v-for="(item, i) in sponsors" :key="i")
                                         div.it-meetup_partner_logo_container
@@ -85,6 +93,12 @@
 
                             b-col.d-flex.justify-content-center.align-items-center( cols="12" )
                                 b-row.m-0.p-0
+                                    b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center( cols="12" xl="9" )
+                                        strong.h1( style="font-weight: 600" ) General Partner
+                                    b-col.mx-auto.p-2( cols="6" )
+                                        div.it-meetup_partner_logo_container
+                                            img.img-fluid( @click="goToLink('https://www.kas.de/de/web/belarus')"
+                                                src="@/assets/kas.png" alt="KAS" )
                                     b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center( cols="12" xl="9" )
                                         strong.h1( style="font-weight: 600" ) Partners
                                     b-col.mx-auto.p-2( cols="6" v-for="item in partners.ordinaryPartners" :key="item.log")

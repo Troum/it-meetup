@@ -2,10 +2,6 @@
   "partners": {
     "ordinaryPartners": [
       {
-        "logo": "kas.png",
-        "website": "https://www.kas.de/de/web/belarus"
-      },
-      {
         "logo": "oaev.png",
         "website": "https://www.oaoev.de/"
       },
@@ -20,6 +16,14 @@
       {
         "logo": "dbwc.png",
         "website": "https://www.rudbwc-minsk.org/"
+      },
+      {
+        "logo": "ahk.jpg",
+        "website": "https://belarus.ahk.de"
+      },
+      {
+        "logo": "rodl.jpg",
+        "website": "https://www.roedl.de/unternehmen/standorte/belarus/"
       }
     ],
     "mediaPartners": [

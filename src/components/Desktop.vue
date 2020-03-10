@@ -42,14 +42,16 @@
             )
                 h3.it-meetup_about_title.p-1  The conference
                 p.it-meetup_about_description.p-1
-                    | The conference is organized by the OAOEV and DBWC in cooperation with local Belarusian companies and organizations. At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
+                    | The conference is organized by the OAOEV, Representative Office of German Economy in Belarus and DBWC in cooperation with local Belarusian companies and organizations. At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
                     br
                     | The conference is carried out by means of relaxed lectures, pitches and break-time discussions. Our aim will be achieved if active economic relations between the participants are established.
                 b-row.mt-1.p-0
-                    b-col.d-flex.justify-content-start.align-items.center.p-4( cols="6" )
+                    b-col.p-4( cols="4" )
                         img.img-fluid( src="@/assets/dbwc.png" alt="DBWC Logo" )
-                    b-col.d-flex.justify-content-start.align-items.center.p-4( cols="6" )
+                    b-col.p-4( cols="4" )
                         img.img-fluid( src="@/assets/oaev.png" alt="OAEV Logo" )
+                    b-col.p-4( cols="4" )
+                        img.img-fluid( src="@/assets/ahk.jpg" alt="AHK Logo" )
         b-row#program.m-0.p-0.min-vh-100.position-relative.it-meetup_program_container
             b-col.m-0.p-0.it-meetup_program_blur_wrapper( cols="12" )
             b-col.m-0.p-0( cols="12" )
@@ -115,25 +117,27 @@
                         b-row.mx-auto.w-90.my-5
                             b-col.mx-auto.p-0( cols="12" xl="5" )
                                 b-row.m-0.p-0
-                                    b-col.my-3.mx-auto.p-0( cols="12" xl="9" )
-                                        strong.h1.mb-0( style="font-weight: 600" ) Sponsors
-                                    b-col.p-3( cols="4" v-for="(item, i) in 6" :key="i"
-                                            data-aos="fade-up"
-                                            data-aos-offset="50"
-                                            data-aos-easing="ease-out-cubic"
-                                            :data-aos-duration="i !== 0 ? 1000 * i/2 : 1500"
-                                        )
-                                        div.it-meetup_partner_logo_container
-                                            img.img-fluid( :src="item.logo ? `./images/sponsors/${item.logo}` : './images/sponsors/placeholder.png'"
-                                                :alt="item.logo" )
+                                    b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center.p-0( cols="12" xl="9" )
+                                        strong.h1.mb-0( style="font-weight: 600" ) General Partner
+                                    b-col.p-3( cols="12"
+                                        data-aos="fade-up"
+                                        data-aos-offset="50"
+                                        data-aos-easing="ease-out-cubic"
+                                        data-aos-duration="1500"
+                                    )
+                                        div.d-flex.align-items-center.justify-content-start
+                                            img.img-fluid( @click="goToLink('https://www.kas.de/de/web/belarus')"
+                                                src="@/assets/kas.png" alt="KAS" )
+
+
                                     b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center.p-0( cols="12" xl="9" )
                                         strong.h1.mb-0( style="font-weight: 600" ) Media Partners
                                     b-col.p-3( cols="4" v-for="(item, i) in partners.mediaPartners" :key="item.logo"
-                                            data-aos="fade-up"
-                                            data-aos-offset="50"
-                                            data-aos-easing="ease-out-cubic"
-                                            :data-aos-duration="i !== 0 ? 1000 * i/2 : 1500"
-                                        )
+                                        data-aos="fade-up"
+                                        data-aos-offset="50"
+                                        data-aos-easing="ease-out-cubic"
+                                        :data-aos-duration="i !== 0 ? 1000 * i/2 : 1500"
+                                    )
                                         div.it-meetup_partner_logo_container
                                             img.img-fluid(
                                                 @click="goToLink(item.website)"
@@ -144,14 +148,15 @@
                                     b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center.p-0( cols="12" xl="9" )
                                         strong.h1.mb-0( style="font-weight: 600" ) Partners
                                     b-col.p-3( cols="4" v-for="(item, i) in partners.ordinaryPartners" :key="i"
-                                            data-aos="fade-up"
-                                            data-aos-offset="50"
-                                            data-aos-easing="ease-out-cubic"
-                                            :data-aos-duration="i !== 0 ? 1000 * i/2 : 1500"
-                                        )
+                                        data-aos="fade-up"
+                                        data-aos-offset="50"
+                                        data-aos-easing="ease-out-cubic"
+                                        :data-aos-duration="i !== 0 ? 1000 * i/2 : 1500"
+                                    )
                                         div.it-meetup_partner_logo_container
                                             img.img-fluid( @click="goToLink(item.website)"
                                                 :src="`./images/partners/${item.logo}`" :alt="item.logo" )
+
 
 </template>
 
