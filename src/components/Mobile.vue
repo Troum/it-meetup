@@ -76,21 +76,6 @@
                 b-row.m-0.p-0
                     b-col.m-0.p-0.text-center.position-relative( cols="12" )
                         b-row.d-flex.justify-content-around.align-items-center.mx-auto.my-5
-                            b-col.d-flex.justify-content-center.align-items-center( cols="12" xl="5" )
-                                b-row.m-0.p-0
-                                    b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center( cols="12" )
-                                        strong.h1( style="font-weight: 600" ) General Sponsor
-                                    b-col.mx-auto.p-2( cols="6")
-                                        div.it-meetup_partner_logo_container
-                                            img.img-fluid( src="@/assets/placeholder.png"
-                                                alt="Placeholder" )
-                                    b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center( cols="12" )
-                                        strong.h1( style="font-weight: 600" ) Sponsors
-                                    b-col.mx-auto.p-2( cols="6" v-for="(item, i) in sponsors" :key="i")
-                                        div.it-meetup_partner_logo_container
-                                            img.img-fluid( :src="item.logo ? `./images/sponsors/${item.logo}` : './images/sponsors/placeholder.png'"
-                                                :alt="item.logo" )
-
                             b-col.d-flex.justify-content-center.align-items-center( cols="12" )
                                 b-row.m-0.p-0
                                     b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center( cols="12" xl="9" )
