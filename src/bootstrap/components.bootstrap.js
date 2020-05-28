@@ -9,6 +9,7 @@ import Desktop from "../components/Desktop";
 import Mobile from "../components/Mobile";
 import StartupInfoModal from "../components/StartupInfoModal";
 import DelegationInfoModal from "../components/DelegationInfoModal";
+import InfoModal from "../components/InfoModal";
 import {ValidationObserver, ValidationProvider} from "vee-validate";
 import pdf from "pdfvuer";
 
@@ -25,3 +26,4 @@ Vue.component('delegation-modal', DelegationInfoModal);
 Vue.component('validation-observer', ValidationObserver);
 Vue.component('validation-provider', ValidationProvider);
 Vue.component('pdf-viewer', pdf);
+Vue.component('info-modal', InfoModal);

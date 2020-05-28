@@ -39,9 +39,9 @@
     {
       "name": "Martin Schebesta",
       "branch": "Expert Digitalization - KAS",
-      "description": "Konrad Adenauer Stiftung",
-      "logo": "",
-      "website": "https://www.kas.de/de/web/belarus"
+      "description": "Martin Schebesta has been working for the Konrad-Adenauer-Stiftung in Berlin since 2017. His expertise comprises startups, the platform economy, industrial policy and global political economy. Martin holds a Master’s degree (MSc) in Global Politics from the London School of Economics and studied Philosophy, Politics and Economics (PPE) at Durham University, UK.",
+      "logo": "schebesta.jpg",
+      "website": "https://www.kas.de/en/home"
     },
     {
       "name": "Paul Wolter TBC",
@@ -51,18 +51,18 @@
       "website": ""
     },
     {
+      "name": "Stefan Kaegebein",
+      "branch": "Director for East Europe - OAEV",
+      "description": "Deutscher Start-up Verband",
+      "logo": "stefan.jpg",
+      "website": ""
+    },
+    {
       "name": "Kirill Zalessky",
       "branch": "Director Global HTP Belarus",
       "description": "HTP Belarus",
       "logo": "",
       "website": "http://www.park.by/?lng=en"
-    },
-    {
-      "name": "Stefan Kaegebein",
-      "branch": "Director for East Europe - OAOEV",
-      "description": "Stefan Kägebein is a member of the Advisory Board of the Pact for Cybersecurity established by the German Federal Ministry of the Interior, Building and Community and the Federation of German Industries and used to be a member of the Steering Committee of the “Digital Summit Western Balkan 6” - process in 2017 and 2018. \nHis focus is on Eastern Europe, Digitalisation, Recruitment, International Business Development and Foreign Policy, each with practical experience in Germany and different countries in CEE and SEE.",
-      "logo": "stefan.jpg",
-      "website": "https://www.oaoev.de/"
     },
     {
       "name": "Stephan Hoffmann",

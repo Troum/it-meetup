@@ -2,10 +2,6 @@
   "partners": {
     "ordinaryPartners": [
       {
-        "logo": "oaev.png",
-        "website": "https://www.oaoev.de/"
-      },
-      {
         "logo": "htp.gif",
         "website": "http://www.park.by/?lng=en"
       },
@@ -14,16 +10,12 @@
         "website": "https://www.marriott.com.ru/hotels/travel/mhpmc-minsk-marriott-hotel/"
       },
       {
-        "logo": "dbwc.png",
-        "website": "https://www.rudbwc-minsk.org/"
+        "logo": "schneidergroup.png",
+        "website": "https://schneider-group.com/en/"
       },
       {
-        "logo": "ahk.jpg",
-        "website": "https://belarus.ahk.de"
-      },
-      {
-        "logo": "rodl.jpg",
-        "website": "https://www.roedl.de/unternehmen/standorte/belarus/"
+        "logo": "bonhotel.png",
+        "website": "http://bonhotel.by/en/mainen/bonhotel/"
       }
     ],
     "mediaPartners": [

@@ -953,7 +953,66 @@ body * {
     }
   }
 }
+#info {
 
+  .info_modal {
+    text-align: right;
+    padding: 0;
+    & .close {
+      opacity: 1;
+    };
+    & .close:not(:disabled):not(.disabled):hover {
+      opacity: 1;
+    };
+    & .info_close {
+      margin-top: -5%;
+      margin-right: -3.5%;
+      min-width: toREM(40);
+      min-height: toREM(40);
+      border-radius: 50%;
+      color: #1C2B3F;
+      font-size: toREM(20);
+      background: #fff;
+      font-weight: 200;
+      border: none;
+      &:focus {
+        outline: none!important;
+        box-shadow: none!important;
+        background: #fff;
+        opacity: 1;
+      }
+    };
+    & .info_header {
+      background: #1C2B3F;
+      width: 100%;
+      padding: .5rem;
+      & .info_title {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: toREM(42);
+        line-height: toREM(52);
+        letter-spacing: 0.085em;
+        &:before {
+          content: '';
+          display: inline-block;
+          height: toREM(6);
+          width: toPercents(116, 1200);
+          margin-bottom: toREM(13);
+          margin-right: toREM(13);
+          background: rgb(255,255,255);
+          background: -moz-linear-gradient(270deg, rgba(255,255,255,1) 46%, rgba(0,0,0,0) 100%);
+          background: -webkit-linear-gradient(270deg, rgba(255,255,255,1) 46%, rgba(0,0,0,0) 100%);
+          background: linear-gradient(270deg, rgba(255,255,255,1) 46%, rgba(0,0,0,0) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+          border-top-right-radius: toREM(3);
+          border-bottom-right-radius: toREM(3);
+        };
+      }
+    };
+  }
+
+}
 .delegation_logo_container {
   position: relative;
   display: flex;

@@ -15,7 +15,7 @@
                     span.it-meetup_filled_greeting.text-uppercase Eastern Europe
                 div.it-meetup_location_container
                     font-awesome-icon.it-meetup_location_icon( :icon="['fas', 'map-marker-alt']" )
-                    span.it-meetup_location_address &nbsp;APRIL 17, HOTEL MARRIOTT, MINSK
+                    span.it-meetup_location_address &nbsp;SUMMER, HOTEL MARRIOTT, MINSK
         b-row#about.m-0.p-0.min-vh-100.position-relative.it-meetup_about_container
             b-col.m-0.my-3.it-meetup_about_title_container( cols="12" )
                 h3.it-meetup_about_title.text-lg-center.text-xl-left The conference
@@ -84,6 +84,10 @@
                                         div.it-meetup_partner_logo_container
                                             img.img-fluid( @click="goToLink('https://www.kas.de/de/web/belarus')"
                                                 src="@/assets/kas.png" alt="KAS" )
+                                    b-col.mx-auto.p-2( cols="6" )
+                                        div.it-meetup_partner_logo_container
+                                            img.img-fluid( @click="goToLink('https://www.roedl.de/unternehmen/standorte/belarus/')"
+                                                src="@/assets/rodl.jpg" alt="Rödl" )
                                     b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center( cols="12" xl="9" )
                                         strong.h1( style="font-weight: 600" ) Partners
                                     b-col.mx-auto.p-2( cols="6" v-for="item in partners.ordinaryPartners" :key="item.log")

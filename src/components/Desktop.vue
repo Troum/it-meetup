@@ -24,7 +24,7 @@
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1200" )
                     font-awesome-icon.it-meetup_location_icon( :icon="['fas', 'map-marker-alt']" )
-                    span.it-meetup_location_address &nbsp;APRIL 17, HOTEL MARRIOTT, MINSK
+                    span.it-meetup_location_address &nbsp;SUMMER, HOTEL MARRIOTT, MINSK
 
         b-row#about.m-0.p-0.pt-5.position-relative.it-meetup_about_container
             b-col.m-0.pl-0.pt-5.pr-5.pb-5( cols="12" xl="6"
@@ -52,7 +52,7 @@
                         img.img-fluid( src="@/assets/oaev.png" alt="OAEV Logo" )
                     b-col.p-4( cols="4" )
                         img.img-fluid( src="@/assets/ahk.jpg" alt="AHK Logo" )
-        b-row#program.m-0.p-0.min-vh-100.position-relative.it-meetup_program_container
+        b-row#program.m-0.p-0.position-relative.it-meetup_program_container
             b-col.m-0.p-0.it-meetup_program_blur_wrapper( cols="12" )
             b-col.m-0.p-0( cols="12" )
                 b-row.m-0.p-0
@@ -89,9 +89,9 @@
                                     div.text-left
                                         p.m-0 {{ item.title }}
                                         p.it-meetup_schedule_description.m-0 {{ item.description }}
-                    b-col.mt-5.pt-3.text-center.position-relative( cols="12" )
+                    b-col.mt-5.mb-5.pt-3.text-center.position-relative( cols="12" )
                         router-link.h4( to="/program" style="color: #A1D9DA; font-weight: 600; letter-spacing: 0.085") Detailed program
-        b-row#registration.m-0.p-0.min-vh-100.position-relative.it-meetup_registration_container
+        b-row#registration.m-0.p-0.position-relative.it-meetup_registration_container
             b-col#join.m-0.p-0( cols="12" )
                 b-row.m-0.p-0
                     b-col.m-0.p-0.text-center.position-relative( cols="12" )
@@ -110,7 +110,7 @@
                                             font-awesome-icon.ml-1( :icon="['fas', 'chevron-up']" )
                                         span.d-flex.justify-content-center.align-items-center.when-closed Show
                                             font-awesome-icon.ml-1( :icon="['fas', 'chevron-down']" )
-        b-row#partners.m-0.p-0.min-vh-100.position-relative.it-meetup_partners_container
+        b-row#partners.m-0.p-0.position-relative.it-meetup_partners_container
             b-col.m-0.p-0( cols="12" )
                 b-row.m-0.p-0
                     b-col.m-0.p-0.text-center.position-relative( cols="12" )
@@ -119,7 +119,7 @@
                                 b-row.m-0.p-0
                                     b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center.p-0( cols="12" xl="9" )
                                         strong.h1.mb-0( style="font-weight: 600" ) General Partner
-                                    b-col.p-3( cols="12"
+                                    b-col.p-3( cols="6"
                                         data-aos="fade-up"
                                         data-aos-offset="50"
                                         data-aos-easing="ease-out-cubic"
@@ -128,10 +128,19 @@
                                         div.d-flex.align-items-center.justify-content-start
                                             img.img-fluid( @click="goToLink('https://www.kas.de/de/web/belarus')"
                                                 src="@/assets/kas.png" alt="KAS" )
+                                    b-col.d-flex.align-items-center.justify-content-start( cols="6"
+                                        data-aos="fade-up"
+                                        data-aos-offset="50"
+                                        data-aos-easing="ease-out-cubic"
+                                        data-aos-duration="1500"
+                                    )
+                                        div.d-flex.align-items-center.justify-content-start
+                                            img.img-fluid( @click="goToLink('https://www.roedl.de/unternehmen/standorte/belarus/')"
+                                                src="@/assets/rodl.jpg" alt="Rödl" )
 
 
-                                    b-col.my-3.mx-auto.d-flex.justify-content-center.align-items-center.p-0( cols="12" xl="9" )
-                                        strong.h1.mb-0( style="font-weight: 600" ) Media Partners
+                                    b-col.mt-5.mx-auto.d-flex.justify-content-center.align-items-center.p-0( cols="12" xl="9" )
+                                        strong.h1.mt-5.mb-0( style="font-weight: 600" ) Media Partners
                                     b-col.p-3( cols="4" v-for="(item, i) in partners.mediaPartners" :key="item.logo"
                                         data-aos="fade-up"
                                         data-aos-offset="50"

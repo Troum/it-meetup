@@ -8,6 +8,7 @@
     vue-snotify
     startup-modal
     delegation-modal
+    info-modal
 </template>
 <script>
     import { isMobile } from "mobile-device-detect";
@@ -20,6 +21,7 @@
         },
         mounted() {
             AOS.init();
+            this.$bvModal.show('info')
         }
     }
 </script>

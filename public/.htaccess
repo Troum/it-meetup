@@ -1,3 +1,4 @@
+ErrorDocument 403 /underconstruction.html
 <ifModule mod_rewrite.c>
     RewriteEngine On
         #301 to https
