@@ -33,7 +33,7 @@
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1200"
                 )
-                img.img-fluid( src="@/assets/meeting.jpg" alt="IT MEET UP")
+                img.pointer.img-fluid( @click="showModal()" src="@/assets/meeting.png" alt="IT MEET UP")
             b-col.m-0.it-meetup_about_title_container( cols="12" xl="5"
                     data-aos="fade-left"
                     data-aos-offset="50"
@@ -170,6 +170,7 @@
 <script>
     import partners from "../static/partners.json";
     import sponsors from "../static/sponsors.json";
+    import * as AOS from "aos/dist/aos";
     export default {
         data() {
           return {
@@ -183,6 +184,10 @@
         methods: {
             goToLink(link) {
                 window.open(link, '_blank')
+            },
+            showModal() {
+                AOS.init();
+                this.$bvModal.show('info')
             }
         }
     }
@@ -191,5 +196,8 @@
 <style scoped>
     .text-weight {
         color: #ffffff;
+    }
+    .pointer {
+        cursor: pointer;
     }
 </style>
