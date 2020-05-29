@@ -31,22 +31,22 @@ export default new Vuex.Store({
     ],
     program: [
       {
-        time: '09:45 - 10:00',
+        time: '10:45 - 11:00',
         title: 'Check-in',
         description: ''
       },
       {
-        time: '10:00 - 10:25',
-        title: 'Key-Notes',
-        description: ''
-      },
-      {
-        time: '10:25 - 11:15',
-        title: 'Presentations',
+        time: '11:00 - 11:15',
+        title: 'Greetings',
         description: ''
       },
       {
         time: '11:15 - 12:00',
+        title: 'Presentations',
+        description: ''
+      },
+      {
+        time: '12:00 - 12:30',
         title: 'Open Discussion',
         description: ''
       },

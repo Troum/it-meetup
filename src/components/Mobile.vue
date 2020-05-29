@@ -20,7 +20,7 @@
             b-col.m-0.my-3.it-meetup_about_title_container( cols="12" )
                 h3.it-meetup_about_title.text-lg-center.text-xl-left The conference
             b-col.m-0.p-0.text-lg-center.text-xl-left( cols="12" )
-                img.img-fluid( src="@/assets/meeting.jpg" alt="IT MEET UP")
+                img.pointer.img-fluid( @click="showModal()" src="@/assets/meeting.png" alt="IT MEET UP")
             b-col.m-0( cols="12" )
                 p.it-meetup_about_description.p-3
                     | The conference is organized by the OAOEV, Representative Office of German Economy in Belarus and DBWC in cooperation with local Belarusian companies and organizations. At the event we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations. Due to Covid-19 the conference is carried out online and in 5 single webinars. Our aim will be achieved if active economic relations between the participants are established.
@@ -101,6 +101,7 @@
 <script>
     import partners from "../static/partners.json";
     import sponsors from "../static/sponsors.json";
+    import * as AOS from "aos/dist/aos";
     export default {
         data() {
             return {
@@ -114,6 +115,10 @@
         methods: {
             goToLink(link) {
                 window.open(link, '_blank')
+            },
+            showModal() {
+                AOS.init();
+                this.$bvModal.show('info')
             }
         }
     }
@@ -122,5 +127,8 @@
 <style scoped>
     .text-weight {
         color: #ffffff;
+    }
+    .pointer {
+        cursor: pointer;
     }
 </style>
