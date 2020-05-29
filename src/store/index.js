@@ -31,30 +31,30 @@ export default new Vuex.Store({
     ],
     program: [
       {
-        time: '09:00 - 09:30',
-        title: 'Registration',
+        time: '09:45 - 10:00',
+        title: 'Check-in',
         description: ''
       },
       {
-        time: '09:30 - 13:00',
-        title: 'Panel discussions',
+        time: '10:00 - 10:25',
+        title: 'Key-Notes',
         description: ''
       },
       {
-        time: '13:00 - 14:00',
-        title: 'Lunch',
+        time: '10:25 - 11:15',
+        title: 'Presentations',
         description: ''
       },
       {
-        time: '14:00 - 19:00',
-        title: 'Pitches of Belarusian Start-ups',
+        time: '11:15 - 12:00',
+        title: 'Open Discussion',
         description: ''
       },
-      {
-        time: '21:00',
-        title: 'Party ',
-        description: ''
-      }
+      // {
+      //   time: '21:00',
+      //   title: 'Party ',
+      //   description: ''
+      // }
     ],
     social: [
       {

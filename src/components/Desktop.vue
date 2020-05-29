@@ -24,7 +24,7 @@
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1200" )
                     font-awesome-icon.it-meetup_location_icon( :icon="['fas', 'map-marker-alt']" )
-                    span.it-meetup_location_address &nbsp;SUMMER, HOTEL MARRIOTT, MINSK
+                    span.it-meetup_location_address &nbsp;15.06.20 <a class="text-weight" target="_blank" href="https://us02web.zoom.us/meeting/register/tZMkf-6qrzItGdL61SwaVFHKDDK-1L42gMdY">Zoom</a>
 
         b-row#about.m-0.p-0.pt-5.position-relative.it-meetup_about_container
             b-col.m-0.pl-0.pt-5.pr-5.pb-5( cols="12" xl="6"
@@ -42,9 +42,7 @@
             )
                 h3.it-meetup_about_title.p-1  The conference
                 p.it-meetup_about_description.p-1
-                    | The conference is organized by the OAOEV, Representative Office of German Economy in Belarus and DBWC in cooperation with local Belarusian companies and organizations. At the lighthouse event in 2020 we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations.
-                    br
-                    | The conference is carried out by means of relaxed lectures, pitches and break-time discussions. Our aim will be achieved if active economic relations between the participants are established.
+                    | The conference is organized by the OAOEV, Representative Office of German Economy in Belarus and DBWC in cooperation with local Belarusian companies and organizations. At the event we want to link German IT and technology companies and German venture capitalists with young, innovative IT companies and start-ups from Belarus in order to provide interested entrepreneurs from both countries with new business opportunities and strengthen bilateral relations. Due to Covid-19 the conference is carried out online and in 5 single webinars. Our aim will be achieved if active economic relations between the participants are established.
                 b-row.mt-1.p-0
                     b-col.p-4( cols="4" )
                         img.img-fluid( src="@/assets/dbwc.png" alt="DBWC Logo" )
@@ -91,7 +89,7 @@
                                         p.it-meetup_schedule_description.m-0 {{ item.description }}
                     b-col.mt-5.mb-5.pt-3.text-center.position-relative( cols="12" )
                         router-link.h4( to="/program" style="color: #A1D9DA; font-weight: 600; letter-spacing: 0.085") Detailed program
-        b-row#registration.m-0.p-0.position-relative.it-meetup_registration_container
+        b-row#registration.m-0.p-0.position-relative.it-meetup_registration_container.d-none
             b-col#join.m-0.p-0( cols="12" )
                 b-row.m-0.p-0
                     b-col.m-0.p-0.text-center.position-relative( cols="12" )
@@ -191,5 +189,7 @@
 </script>
 
 <style scoped>
-
+    .text-weight {
+        color: #ffffff;
+    }
 </style>

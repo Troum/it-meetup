@@ -1195,3 +1195,9 @@ form {
     line-height: toREM(28);
   }
 }
+
+#info {
+  .modal-dialog {
+    max-width: 315px
+  }
+}

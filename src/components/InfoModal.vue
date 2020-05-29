@@ -4,12 +4,9 @@
             div.info_header
                 b-button.info_close( @click="$bvModal.hide('info')" )
                     font-awesome-icon( :icon="['fas', 'times']" )
-                h1.info_title.ml-auto Additional info
+                h1.info_title.ml-auto Greetings
         div
-            p Dear Sirs,
-            p due to travel restrictions and the ban on public events due to the coronavirus (COVID-19) in the Republic of Belarus, we postpone our conference until summer 2020.
-            p All registered participants will receive a separate message with further information.
-            p Your organization team
+            <iframe height="500" src="https://www.youtube.com/embed/CcebKAG9ALM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </template>
 
 <script>
@@ -18,6 +15,8 @@
     }
 </script>
 
-<style scoped lang="scss">
-
+<style scoped>
+    iframe {
+        width: 100%;
+    }
 </style>
