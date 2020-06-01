@@ -1,15 +1,21 @@
 <template lang="pug">
     b-row.it-meetup_footer
         b-col.h-100( cols="12" )
-            b-row.m-0.p-0.d-flex.justify-content-between
+            b-row.m-0.p-0.d-flex.justify-content-between.pt-3
                 b-col.d-flex.justify-content-center.align-items-center.d-xl-block.text-center(cols="3" xl="3" )
                     img.img-fluid( src="@/assets/meetup-logo.png" alt="IT Meet Up Logo" )
                 b-col( cols="9" xl="3")
-                    b-navbar-nav.d-lg-inline-block
-                        b-nav-item.it-meetup_footer_nav_item.white.mr-lg-2( v-for="item in $store.getters.menu"
+                    b-navbar-nav
+                    template( v-for="item in $store.getters.menu"  )
+                        b-nav-item.it-meetup_footer_nav_item.white.mr-lg-2( v-if="$store.getters.main && !item.link"
                             :key="item.anchor"
                             v-scroll-to="`${item.anchor}`"
                             :class="item.isButton || item.isDropdown ? 'd-none' : 'd-inline-block d-xl-block' " ) {{ item.title }}
+                        b-nav-item.it-meetup_footer_nav_item.white.mr-lg-2( v-if="item.link"
+                            :key="item.title"
+                            :href="item.link"
+                            target="_blank"
+                            :class="item.isButton || item.isDropdown ? 'd-none' : 'd-inline-block d-xl-block' ") {{ item.title }}
                     b-row.m-0.p-0.d-xl-none
                         b-col.m-0.p-0( cols="12" )
                             b-navbar-nav.d-inline
