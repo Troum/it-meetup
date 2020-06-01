@@ -20,8 +20,9 @@ export default new Vuex.Store({
       },
       {
         title: 'Registration',
-        anchor: '#registration',
-        isDropdown: false
+        anchor: '',
+        isDropdown: false,
+        link: 'https://us02web.zoom.us/meeting/register/tZMkf-6qrzItGdL61SwaVFHKDDK-1L42gMdY'
       },
       {
         title: 'Partners',

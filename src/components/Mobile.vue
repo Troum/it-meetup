@@ -50,7 +50,7 @@
                                         p.it-meetup_schedule_description.m-0 {{ item.description }}
                     b-col.mt-5.mb-2.pt-3.pb-2.text-center.position-relative( cols="12" )
                         router-link.h6( to="/program" style="color: #A1D9DA; font-weight: 600; letter-spacing: 0.085") Detailed program
-        b-row#registration.m-0.p-0.min-vh-100.position-relative.it-meetup_registration_container
+        b-row#registration.m-0.p-0.min-vh-100.position-relative.it-meetup_registration_container.d-none
             b-col#join.m-0.p-0( cols="12" )
                 b-row.m-0.p-0
                     b-col.m-0.p-0.text-center.position-relative( cols="12" )
