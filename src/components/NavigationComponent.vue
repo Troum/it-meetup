@@ -9,8 +9,10 @@
                 b-nav-item.text-center.white( v-if="!$store.getters.main"
                     @click="goToPage('home')" ) Main
                 template( v-for="item in $store.getters.menu"  )
-                    b-nav-item.white( v-if="$store.getters.main" @click="toggleNav" :key="item.title"
+                    b-nav-item.white( v-if="$store.getters.main && !item.link" @click="toggleNav" :key="item.title"
                         v-scroll-to="`${item.anchor}`") {{ item.title }}
+                    b-nav-item.white( v-if="item.link" :key="item.title"
+                        :href="item.link" target="_blank") {{ item.title }}
                 b-nav-item.text-center.white( @click="goToPage('startups')" ) Startups
                 b-nav-item.text-center.white( @click="goToPage('delegations')" ) Delegation
                 b-nav-item.it-meetup_button.bold.dark
