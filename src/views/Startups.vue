@@ -40,11 +40,17 @@
                     data-aos-easing="ease-out-cubic"
                     :data-aos-duration="1000"
                 ) Health
-                button.filter( @click="filterBranch" type="button" data-filter="ai"
+                button.filter( @click="filterBranch" type="button" data-filter="VR/AR"
                     data-aos="fade-left"
                     :data-aos-offset="isMobile ? 20 : 50"
                     data-aos-easing="ease-out-cubic"
                     :data-aos-duration="1100"
+                ) VR/AR
+                button.filter( @click="filterBranch" type="button" data-filter="ai"
+                    data-aos="fade-left"
+                    :data-aos-offset="isMobile ? 20 : 50"
+                    data-aos-easing="ease-out-cubic"
+                    :data-aos-duration="1200"
                 ) AI
         b-row.m-0.p-0
             b-col.mx-auto.it-meetup_participants_container( cols="10" xl="8" )
