@@ -18,12 +18,12 @@ export default new Vuex.Store({
         anchor: '#program',
         isDropdown: false
       },
-      {
-        title: 'Registration',
-        anchor: '',
-        isDropdown: false,
-        link: 'https://us02web.zoom.us/meeting/register/tZMkf-6qrzItGdL61SwaVFHKDDK-1L42gMdY'
-      },
+      // {
+      //   title: 'Registration',
+      //   anchor: '',
+      //   isDropdown: false,
+      //   link: 'https://us02web.zoom.us/meeting/register/tZMkf-6qrzItGdL61SwaVFHKDDK-1L42gMdY'
+      // },
       {
         title: 'Partners',
         anchor: '#partners',
@@ -32,23 +32,23 @@ export default new Vuex.Store({
     ],
     program: [
       {
-        time: '10:45 - 11:00',
+        time: '13:45 - 14:00',
         title: 'Check-in',
         description: ''
       },
+      // {
+      //   time: '11:00 - 11:15',
+      //   title: 'Greetings',
+      //   description: ''
+      // },
+      // {
+      //   time: '11:15 - 12:00',
+      //   title: 'Presentations',
+      //   description: ''
+      // },
       {
-        time: '11:00 - 11:15',
-        title: 'Greetings',
-        description: ''
-      },
-      {
-        time: '11:15 - 12:00',
-        title: 'Presentations',
-        description: ''
-      },
-      {
-        time: '12:00 - 12:30',
-        title: 'Open Discussion',
+        time: '14:00 - 15:30',
+        title: 'Discussion',
         description: ''
       },
       // {

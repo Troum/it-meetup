@@ -15,7 +15,7 @@
                     span.it-meetup_filled_greeting.text-uppercase Eastern Europe
                 div.it-meetup_location_container
                     font-awesome-icon.it-meetup_location_icon( :icon="['fas', 'map-marker-alt']" )
-                    span.it-meetup_location_address &nbsp;15.06.20 <a class="text-weight" target="_blank" href="https://us02web.zoom.us/meeting/register/tZMkf-6qrzItGdL61SwaVFHKDDK-1L42gMdY">Zoom</a>
+                    span.it-meetup_location_address &nbsp;15.06.20 <a class="text-weight">Zoom</a>
         b-row#about.m-0.p-0.min-vh-100.position-relative.it-meetup_about_container
             b-col.m-0.my-3.it-meetup_about_title_container( cols="12" )
                 h3.it-meetup_about_title.text-lg-center.text-xl-left The conference
