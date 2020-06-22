@@ -30,6 +30,11 @@ const routes = [
     component: () => import('../views/Program.vue')
   },
   {
+    path: '/history',
+    name: 'history',
+    component: () => import('../views/History.vue')
+  },
+  {
     path: "*",
     redirect: "/404"
   },

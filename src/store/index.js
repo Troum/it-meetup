@@ -36,19 +36,19 @@ export default new Vuex.Store({
         title: 'Check-in',
         description: ''
       },
-      // {
-      //   time: '11:00 - 11:15',
-      //   title: 'Greetings',
-      //   description: ''
-      // },
-      // {
-      //   time: '11:15 - 12:00',
-      //   title: 'Presentations',
-      //   description: ''
-      // },
       {
-        time: '14:00 - 15:30',
-        title: 'Discussion',
+        time: '14:00 - 14:20',
+        title: 'Greetings and Fintech expert speeches',
+        description: ''
+      },
+      {
+        time: '14:20 - 15:00',
+        title: 'Belarusian Fintech startups',
+        description: ''
+      },
+      {
+        time: '15:00 - 15:30',
+        title: 'Open Discussion',
         description: ''
       },
       // {
