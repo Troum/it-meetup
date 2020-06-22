@@ -18,12 +18,12 @@ export default new Vuex.Store({
         anchor: '#program',
         isDropdown: false
       },
-      {
-        title: 'Registration',
-        anchor: '',
-        isDropdown: false,
-        link: 'https://us02web.zoom.us/meeting/register/tZMkf-6qrzItGdL61SwaVFHKDDK-1L42gMdY'
-      },
+      // {
+      //   title: 'Registration',
+      //   anchor: '',
+      //   isDropdown: false,
+      //   link: 'https://us02web.zoom.us/meeting/register/tZMkf-6qrzItGdL61SwaVFHKDDK-1L42gMdY'
+      // },
       {
         title: 'Partners',
         anchor: '#partners',
@@ -32,22 +32,22 @@ export default new Vuex.Store({
     ],
     program: [
       {
-        time: '10:45 - 11:00',
+        time: '13:45 - 14:00',
         title: 'Check-in',
         description: ''
       },
       {
-        time: '11:00 - 11:15',
-        title: 'Greetings',
+        time: '14:00 - 14:20',
+        title: 'Greetings and Fintech expert speeches',
         description: ''
       },
       {
-        time: '11:15 - 12:00',
-        title: 'Presentations',
+        time: '14:20 - 15:00',
+        title: 'Belarusian Fintech startups',
         description: ''
       },
       {
-        time: '12:00 - 12:30',
+        time: '15:00 - 15:30',
         title: 'Open Discussion',
         description: ''
       },

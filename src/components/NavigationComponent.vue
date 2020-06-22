@@ -13,10 +13,11 @@
                         v-scroll-to="`${item.anchor}`") {{ item.title }}
                     b-nav-item.white( v-if="item.link" :key="item.title"
                         :href="item.link" target="_blank") {{ item.title }}
+                b-nav-item.text-center.white( @click="goToPage('history')" ) History
                 b-nav-item.text-center.white( @click="goToPage('startups')" ) Startups
                 b-nav-item.text-center.white( @click="goToPage('delegations')" ) Delegation
                 b-nav-item.it-meetup_button.bold.dark
-                    countdown-component( date="june 15, 2020" )
+                    countdown-component( date="june 29, 2020" )
 </template>
 
 <script>
