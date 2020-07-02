@@ -1,63 +1,72 @@
-<template lang="pug">
-    div.mt-5.pt-4.pt-xl-0.mt-xl-auto
-        b-row.m-0.it-meetup_startups_greeting
-            b-col.mx-auto.my-2.d-flex.justify-content-center.flex-column.flex-wrap( cols="10" xl="8" )
-                h1.it-meetup_startups_greeting_title.text-left.w-100.pl-xl-5(
+<template>
+    <div class="mt-5 pt-4 pt-xl-0 mt-xl-auto">
+        <b-row class="m-0 it-meetup_startups_greeting">
+            <b-col class="mx-auto my-2 d-flex justify-content-center flex-column flex-wrap col-xl-8 col-10">
+                <h1
                     data-aos="fade-down"
+                    class="it-meetup_startups_greeting_title text-left w-100 pl-xl-5"
                     :data-aos-offset="isMobile ? 20 : 50"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000"
-                ) Past&nbsp;
-                    span(
-                        data-aos="fade-down"
-                        :data-aos-offset="isMobile ? 20 : 50"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000"
-                    ) events
-                p.it-meetup_startups_greeting_description.p-0.p-xl-5.m-0(
+                >
+                    Past&nbsp; <span data-aos-duration="1000" data-aos-easing="ease-out-cubic" :data-aos-offset="isMobile ? 20 : 50" data-aos="fade-down">events</span>
+                </h1>
+                <p
                     data-aos="fade-up"
+                    class="it-meetup_startups_greeting_description p-0 p-xl-5 m-0"
                     :data-aos-offset="isMobile ? 20 : 50"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1500"
-                ) Previous events organized within the framework of the conference “Germany meets the Silicon Valley of Eastern Europe”.
-                p.m-0.p-0.pl-xl-5.h-blue Select an event date:
-        div.wrap-tabs
-            div.tabs
-                ul.nav.nav-tabs.mx-auto.col-xl-8.col-10.pl-5(role="tablist")
-                    li.nav-item
-                        a.nav-link.active(
-                            id="first-tab"
-                            href="#first-tab"
-                            role="tab"
-                            aria-controls="first-tab"
-                            aria-selected="true"
-                        ) 15th of June
-                    //li.nav-item
-                        a.nav-link(
-                            id="second-tab"
-                            role="tab"
-                            aria-controls="second-tab"
-                            aria-selected="true"
-                        ) 29th of June
-        b-row.m-0.p-0
-            fifteen-th-of-june
+                >Previous events organized within the framework of the conference “Germany meets the Silicon Valley of Eastern Europe”.</p>
+                <p class="m-0 p-0 pl-xl-5 h-blue">Select an event date:</p>
+            </b-col>
+        </b-row>
+        <div class="wrap-tabs">
+            <div class="tabs">
+                <ul class="nav nav-tabs mx-auto col-xl-8 col-10 pl-5">
+                    <li class="nav-item">
+                        <a
+                            @click="tabIndex = 0"
+                            :class="{active: tabIndex === 0, 'cursor-pointer': true, 'nav-link': true}"
+                        >15th of June</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            @click="tabIndex = 1"
+                            :class="{active: tabIndex === 1, 'cursor-pointer': true, 'nav-link': true}"
+                        >29th of June</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <b-row class="m-0 p-0">
+            <b-tabs v-model="tabIndex" no-nav-style>
+                <b-tab>
+                    <FifteenThOfJune/>
+                </b-tab>
+                <b-tab>
+                    <TwentyNineThOfJune/>
+                </b-tab>
+            </b-tabs>
+        </b-row>
+    </div>
 </template>
 
 <script>
     import delegations from "../static/delegation.json";
     import FifteenThOfJune from "../components/history/FifteenThOfJune";
+    import TwentyNineThOfJune from "../components/history/TwentyNineThOfJune";
+    import {BTabs, BTab} from "bootstrap-vue";
 
     export default {
-        components: {FifteenThOfJune},
-        comments: {
-            FifteenThOfJune
-        },
+        components: {TwentyNineThOfJune, FifteenThOfJune, BTabs, BTab},
         props: {
           isMobile: null
         },
         data() {
             return {
-                delegations: delegations.delegations
+                delegations: delegations.delegations,
+                tabIndex: 1
             }
         },
         methods: {
@@ -111,15 +120,15 @@
                             color: #1C2B3F;
                             border: 0;
                         }
-                        &:after {
-                            content: "";
-                            border-right: 1px solid #FFFFFF;
-                            width: 1px;
-                            background: #ffffff;
-                            height: 70%;
-                            position: absolute;
-                            right: 0;
-                        }
+                        /*&:after {*/
+                        /*    content: "";*/
+                        /*    border-right: 1px solid #FFFFFF;*/
+                        /*    width: 1px;*/
+                        /*    background: #ffffff;*/
+                        /*    height: 70%;*/
+                        /*    position: absolute;*/
+                        /*    right: 0;*/
+                        /*}*/
                     }
                     .active {
                         background: #FFFFFF;
@@ -153,5 +162,8 @@
                 }
             }
         }
+    }
+    .cursor-pointer {
+        cursor: pointer;
     }
 </style>

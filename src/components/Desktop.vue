@@ -24,7 +24,7 @@
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1200" )
                     font-awesome-icon.it-meetup_location_icon( :icon="['fas', 'map-marker-alt']" )
-                    span.it-meetup_location_address &nbsp;29.06.20 <a class="text-weight">Zoom</a>
+                    span.it-meetup_location_address &nbsp;09.09.20 <a class="text-weight">Zoom</a>
 
         b-row#about.m-0.p-0.pt-5.position-relative.it-meetup_about_container
             b-col.m-0.pl-0.pt-5.pr-5.pb-5( cols="12" xl="6"
@@ -56,6 +56,7 @@
                 b-row.m-0.p-0
                     b-col.m-0.p-0.text-center.position-relative( cols="12" )
                         h4.it-meetup_program_title Event Program
+                        h5.text-weight GMT +2 (Berlin)
                         div.vertical_border( ref="vertical"
                             data-aos="fade-in"
                             data-aos-offset="50"
@@ -179,7 +180,7 @@
           }
         },
         mounted() {
-            this.$refs.vertical.style.height = `calc(${this.$refs.schedule.clientHeight}px + 17%)`;
+            this.$refs.vertical.style.height = `calc(${this.$refs.schedule.clientHeight}px + 5%)`;
         },
         methods: {
             goToLink(link) {
