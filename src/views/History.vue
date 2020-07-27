@@ -155,8 +155,11 @@
                 ul {
                     margin: 0 !important;
                     li {
+                        max-width: 50%;
                         a {
-                            font-size: 18px;
+                            font-size: 14px;
+                            line-height: 1;
+                            padding: 0 15px;
                         }
                     }
                 }
