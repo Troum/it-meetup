@@ -21,7 +21,7 @@
         },
         mounted() {
             AOS.init();
-            this.$bvModal.show('info')
+            // this.$bvModal.show('info')
         }
     }
 </script>
