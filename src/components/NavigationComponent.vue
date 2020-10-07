@@ -17,7 +17,7 @@
                 b-nav-item.text-center.white( @click="goToPage('startups')" ) Startups
                 b-nav-item.text-center.white( @click="goToPage('delegations')" ) Delegation
                 b-nav-item.it-meetup_button.bold.dark
-                    countdown-component( date="September 09, 2020" )
+                    countdown-component( date="October 07, 2020" )
 </template>
 
 <script>

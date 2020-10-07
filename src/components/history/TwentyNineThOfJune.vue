@@ -87,6 +87,7 @@
                             h6 CEO
                             hr
                             p.m-0.desc.bold Cashew
+                            a.button-download(href="/files/presentations/Cashew Fintech Deck.pdf" target="_blank") Download
             div.col-md-6
                 b-row
                     div.col-md-3.p-0.text-center
