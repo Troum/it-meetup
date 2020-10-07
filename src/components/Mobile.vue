@@ -15,7 +15,7 @@
                     span.it-meetup_filled_greeting.text-uppercase Eastern Europe
                 div.it-meetup_location_container
                     font-awesome-icon.it-meetup_location_icon( :icon="['fas', 'map-marker-alt']" )
-                    span.it-meetup_location_address &nbsp;09.09.20 <a class="text-weight">Zoom</a>
+                    span.it-meetup_location_address &nbsp;07.10.20 <a target="_blank" href="https://us02web.zoom.us/webinar/register/WN_-XAI9agxQRue2kjPOaO_Jw" class="text-weight">Zoom</a>
         b-row#about.m-0.p-0.min-vh-100.position-relative.it-meetup_about_container
             b-col.m-0.my-3.it-meetup_about_title_container( cols="12" )
                 h3.it-meetup_about_title.text-lg-center.text-xl-left The conference
@@ -49,7 +49,7 @@
                                     div.text-left
                                         p.m-0 {{ item.title }}
                                         p.it-meetup_schedule_description.m-0 {{ item.description }}
-                    //b-col.mt-5.mb-2.pt-3.pb-2.text-center.position-relative( cols="12" )
+                    b-col.mt-5.mb-2.pt-3.pb-2.text-center.position-relative( cols="12" )
                         router-link.h6( to="/program" style="color: #A1D9DA; font-weight: 600; letter-spacing: 0.085") Detailed program
         b-row#registration.m-0.p-0.min-vh-100.position-relative.it-meetup_registration_container.d-none
             b-col#join.m-0.p-0( cols="12" )

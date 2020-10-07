@@ -18,12 +18,12 @@ export default new Vuex.Store({
         anchor: '#program',
         isDropdown: false
       },
-      // {
-      //   title: 'Registration',
-      //   anchor: '',
-      //   isDropdown: false,
-      //   link: 'https://us02web.zoom.us/webinar/register/WN_0cBZgQeTTOO0MFZ7k8rR_A'
-      // },
+      {
+        title: 'Registration',
+        anchor: '',
+        isDropdown: false,
+        link: 'https://us02web.zoom.us/webinar/register/WN_-XAI9agxQRue2kjPOaO_Jw'
+      },
       {
         title: 'Partners',
         anchor: '#partners',
@@ -32,33 +32,42 @@ export default new Vuex.Store({
     ],
     program: [
       {
-        time: '13:45 – 14:00',
+        time: '12:45 – 13:00',
         title: 'Check-in',
         description: ''
       },
       {
-        time: '14:00 – 14:05',
+        time: '13:00 – 13:10',
         title: 'Greetings',
         description: ''
       },
       {
-        time: '14:05 – 14:30',
-        title: 'Expert speeches',
+        time: '13:10 – 13:20',
+        title: 'The ICT Sector in Belarus:  \n' +
+            'Opportunities and\n' +
+            'Challenges',
         description: ''
       },
       {
-        time: '14:30 – 14:40',
+        time: '13:20 – 14:00',
+        title: 'German and European e-health market and\n' +
+            'presentations of Belarusian startups. Part 1.',
+        description: ''
+      },
+      {
+        time: '14:00 - 14:10',
         title: 'Q&A',
         description: ''
       },
       {
-        time: '14:40 – 15:20',
-        title: 'Belarusian e-Health startups',
+        time: '14:10 – 15:00',
+        title: 'German and European e-health market and\n' +
+            'presentations of Belarusian startups. Part 2.',
         description: ''
       },
       {
-        time: '15:20 – 15:50',
-        title: 'Open Discussion',
+        time: '15:00 – 15:15',
+        title: 'Q&A',
         description: ''
       }
     ],
