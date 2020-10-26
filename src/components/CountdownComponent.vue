@@ -1,5 +1,5 @@
 <template lang="pug">
-    span {{ daysLeft }} {{ daysLeft > 1 ? 'days left' : 'day left' }}
+    span {{ title() }}
 </template>
 
 <script>
@@ -13,6 +13,23 @@
                 timeLeft: null,
                 daysLeft: null
             }
+        },
+        methods: {
+          title() {
+            let text = '';
+            if (this.daysLeft > 1) {
+              text = this.daysLeft + ' days left';
+            }else{
+              text = this.daysLeft + ' day left';
+            }
+            if (this.daysLeft < 0) {
+              text = Math.abs(this.daysLeft) + ' days ago';
+            }
+            if (this.daysLeft === -1) {
+              text = Math.abs(this.daysLeft) + ' day ago';
+            }
+            return  text;
+          }
         },
         mounted() {
             this.timeLeft = (new Date(this.date).getTime() - new Date().getTime());
