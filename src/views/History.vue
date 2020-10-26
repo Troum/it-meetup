@@ -24,29 +24,38 @@
         <div class="wrap-tabs">
             <div class="tabs">
                 <ul class="nav nav-tabs mx-auto col-xl-8 col-10 pl-5">
-                    <li class="nav-item">
-                        <a
-                            @click="tabIndex = 0"
-                            :class="{active: tabIndex === 0, 'cursor-pointer': true, 'nav-link': true}"
-                        >15th of June</a>
-                    </li>
-                    <li class="nav-item">
-                        <a
-                            @click="tabIndex = 1"
-                            :class="{active: tabIndex === 1, 'cursor-pointer': true, 'nav-link': true}"
-                        >29th of June</a>
-                    </li>
+                  <li class="nav-item">
+                      <a
+                          @click="tabIndex = 0"
+                          :class="{active: tabIndex === 0, 'cursor-pointer': true, 'nav-link': true}"
+                      >15th of June</a>
+                  </li>
+                  <li class="nav-item">
+                      <a
+                          @click="tabIndex = 1"
+                          :class="{active: tabIndex === 1, 'cursor-pointer': true, 'nav-link': true}"
+                      >29th of June</a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                        @click="tabIndex = 2"
+                        :class="{active: tabIndex === 2, 'cursor-pointer': true, 'nav-link': true}"
+                    >7th of October</a>
+                  </li>
                 </ul>
             </div>
         </div>
         <b-row class="m-0 p-0">
             <b-tabs v-model="tabIndex" no-nav-style>
-                <b-tab>
-                    <FifteenThOfJune/>
-                </b-tab>
-                <b-tab>
-                    <TwentyNineThOfJune/>
-                </b-tab>
+              <b-tab>
+                <FifteenThOfJune/>
+              </b-tab>
+              <b-tab>
+                <TwentyNineThOfJune/>
+              </b-tab>
+              <b-tab>
+                <SevenThOfOctober/>
+              </b-tab>
             </b-tabs>
         </b-row>
     </div>
@@ -57,16 +66,17 @@
     import FifteenThOfJune from "../components/history/FifteenThOfJune";
     import TwentyNineThOfJune from "../components/history/TwentyNineThOfJune";
     import {BTabs, BTab} from "bootstrap-vue";
+    import SevenThOfOctober from "@/components/history/SevenThOfOctober";
 
     export default {
-        components: {TwentyNineThOfJune, FifteenThOfJune, BTabs, BTab},
+        components: {TwentyNineThOfJune, FifteenThOfJune, SevenThOfOctober, BTabs, BTab},
         props: {
           isMobile: null
         },
         data() {
             return {
                 delegations: delegations.delegations,
-                tabIndex: 1
+                tabIndex: 2
             }
         },
         methods: {
@@ -96,7 +106,7 @@
         .tabs {
             background: rgba(245, 245, 245, 0.6);
             border-radius: 15px 15px 0 0;
-            height: 90px;
+            min-height: 90px;
             display: flex;
             align-items: flex-end;
             ul {
