@@ -93,6 +93,7 @@
                             h6 Vice President of iTechArt
                             hr
                             p.m-0.desc.bold AIbolit
+                            a.button-download(href="/files/presentations/Aibolit.pptx" target="_blank") Download
             div.col-md-6
                 b-row
                     div.col-md-3.p-0.d-flex.justify-content-center
